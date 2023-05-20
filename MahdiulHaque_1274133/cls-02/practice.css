@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container {
+    width: 100%;
+    background-color: aquamarine;
+}
+ .content {
+    width: 20%;
+    float: left;
+    padding: 30px;
+    border: 1px solid black;
+   
+    margin-left: 30px;
+    height: 200px;
+    text-align: right;
+    
+ }
+ .footer {
+    text-align: center;
+    color: black;
+    float: left;
+    padding-right: 30%;
+ 
+
+ }
+ .navbutton{ color: brown;
+padding: 30px;
+ text-align: center;
+}
+.header{
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    text-shadow: 2px solid black;
+}
+.nav{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: black;
+    text-size-adjust: 20%;
+    background-color: green;
+}
