@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: auto;
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.logo{
+    width: 20%;
+    display: inline-flex;
+    /* border: 1px solid black; */
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+.logo p{
+    font-size: 30px;
+    /* padding-left: 20px; */
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: orangered;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    padding: 30px;
+    margin-left: 50px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.menu a:hover{
+    color: orangered;
+}
+.login{
+    width: 20%;
+    display: flex;
+    padding: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.login a:hover{
+    color: white;
+}
