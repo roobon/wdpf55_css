@@ -2,10 +2,9 @@ body {
     margin: auto;
     box-sizing: border-box;
     background-color: aqua;
-}
-.container {
-    width: 100%;
-    background-color: aquamarine;
+    height: 300px;
+    width: 800px;
+
 }
  .content {
     width: 20%;
@@ -23,12 +22,15 @@ body {
     color: black;
     float: left;
     padding-right: 30%;
+    height: 10px;
+    text-decoration: solid gray;
  
 
  }
  .navbutton{ color: brown;
 padding: 30px;
  text-align: center;
+ background-color: green;
 }
 .header{
     text-align: center;
@@ -41,5 +43,9 @@ padding: 30px;
     text-decoration: dotted;
     text-decoration-color: black;
     text-size-adjust: 20%;
-    background-color: green;
+    background-color: rgba(100, 15, 17, 0.2);
+}
+.middle {
+    background-image: inherit;
+    
 }
