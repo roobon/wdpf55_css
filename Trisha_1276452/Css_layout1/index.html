@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header{
+            background-color: aquamarine;
+            background-image:url(../istockphoto-1322277517-612x612.jpg) ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            height: 300px;
+            padding: 20px;
+        }
+        .header h2{
+            color: rgb(4, 95, 175);
+        }
+        .nav-menu{
+            background-color: lightpink;
+            height: 60px;
+            text-align: center;
+        }
+
+        .nav-menu a{
+            /*float:left: ; */
+            margin: 13px 20px 0 0;
+            display:  inline-block;
+            padding: 7px;
+            text-decoration: none;
+            color: blue;
+            background-color: lightcyan;     
+        }
+        .nav-menu a:hover{
+            background-color: lemonchiffon;
+            color: blue;
+        }
+        .row{
+            width: 100%;
+            /* background-color: lemonchiffon; */
+            /* height: 500px; */
+        }
+        .ColumnA,.ColumnB,.ColumnC{
+            width: 31%;
+            font-size: 1.5rem;
+            padding: 9px;
+            float: left;
+            height: 200px;
+            overflow: hidden;
+            border: 1px solid black;
+            background-color: lightgoldenrodyellow;
+            margin: 10.2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+        }
+        footer{
+            clear: both;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid rgb(#720303, green, blue);
+            margin-top: 25px;
+            background-color: lightcoral;
+        } 
+        .search{
+            position: absolute;
+            right: 50px;
+            top: 50px;
+        }
+        .search input{
+            width: 300px;
+            padding: 7px;
+            outline: none;
+            font-size: 14px;
+        }
+        .search button{
+            padding: 8px;
+            border: none;
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>IDB-BISEW</h2>
+    </div>
+
+    <div class="search">
+        <form action="/mypage.php">
+            <input type="search" placeholder="Type to search here">
+            <button>Search</button>
+        </form>
+    </div>
+
+    <div class="nav-menu">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </div>
+    <div class="row">
+        <div class="ColumnA">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ab asperiores illo, quidem dignissimos dolores, nisi porro, laudantium rerum fuga dicta veritatis est sint quisquam ad omnis molestiae magnam sunt.</div>        
+        <div class="ColumnB">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eveniet necessitatibus sed libero dolore voluptas iste dolor nesciunt impedit dolorem fugit alias delectus magnam, consequatur distinctio iure rem? Aperiam, quas?</div>
+        <div class="ColumnC">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sint doloremque. Repellat vero rerum eius obcaecati, nemo accusantium porro nam facilis consequatur nisi impedit, ratione quaerat incidunt alias quos molestiae.</div>
+    </div>
+
+    <footer>
+        &copy;2023 All rights reserved.
+    </footer>
+    
+</body>
+</html>
