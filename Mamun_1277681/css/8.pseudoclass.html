@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css pseudo class</title>
+    <style>
+        a:link{
+            color: blue ;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        a:active{
+            color: purple;
+        }
+        p:hover{
+            background-color: red;
+        }
+        .part2{
+            display: none;
+        }
+        .part1:hover p{
+            display: inline;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>pseudo class with ancor</h3>
+    <a href="https://www.yahoo.com">yahoo</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="8.pseudoclass.html">curent page</a>
+    <p>this paragragh is used to check hover on paragrapoh</p>
+
+    <!-- division -->
+    <div class="part1">This is division
+        <p class="part2">This is part two</p>
+    </div>
+    
+</body>
+</html>
