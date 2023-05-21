@@ -2,10 +2,9 @@ body {
     margin: auto;
     box-sizing: border-box;
     background-color: aqua;
-}
-.container {
-    width: 100%;
-    background-color: aquamarine;
+    height: 300px;
+    width: 800px;
+
 }
  .content {
     width: 25%;
@@ -24,15 +23,24 @@ body {
     color: black;
     float: left;
     padding-right: 30%;
+<<<<<<< HEAD
     
+=======
+    height: 10px;
+    text-decoration: solid gray;
+>>>>>>> 872635ceb02d39aac47b178c7163436a2bde5ac0
  
 
  }
  .navbutton{ color: brown;
 padding: 30px;
  text-align: center;
+<<<<<<< HEAD
  
  
+=======
+ background-color: green;
+>>>>>>> 872635ceb02d39aac47b178c7163436a2bde5ac0
 }
 .header{
     text-align: center;
@@ -45,6 +53,7 @@ padding: 30px;
     text-decoration: none;
  
     text-size-adjust: 20%;
+<<<<<<< HEAD
     background-color: green;
     padding: 30px;
 }
@@ -55,3 +64,11 @@ padding: 30px;
     font-size: 20px;
 
  }
+=======
+    background-color: rgba(100, 15, 17, 0.2);
+}
+.middle {
+    background-image: inherit;
+    
+}
+>>>>>>> 872635ceb02d39aac47b178c7163436a2bde5ac0

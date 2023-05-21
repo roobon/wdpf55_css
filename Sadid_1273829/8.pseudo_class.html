@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        a:link{
+            color: green;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+        a:active{
+            color: purple;
+        }
+        p{
+            display: none;
+            font-size: 1.1rem;
+            color: red;
+        }
+        div{
+            background-color: bisque;
+            width: fit-content;
+        }
+        div:hover p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h3>Pseudo class with anchor</h3>
+    <a href="8.pseudo_class.html">Current page</a> |
+    <a href="https://google.com" target="_blank">Google</a> |
+    <a href="https://yahoo.com" target="_blank">Yahoo</a> |
+    <a href="https://w3schools.com" target="_blank">W3Schools</a>
+    <br><br>
+
+    <div>
+        <button>Hover me</button>
+        <p>Thanks for Hover the button</p>
+    </div>
+</body>
+</html>
