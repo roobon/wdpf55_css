@@ -21,10 +21,10 @@ body {
     background-color: rgb(35, 182, 84);
 }
 .content1 {
-    background-color: aquamarine;
+    background-color: rgb(208, 238, 228);
     width: 30%;
     float: left;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     margin: 10px;
     }
@@ -32,15 +32,15 @@ body {
         background-color: aquamarine;
         width: 30%;
         float: left;
-        padding: 20px;
+        padding: 15px;
         text-align: center;
         margin: 10px;
         }
         .content3 {
-            background-color: aquamarine;
+            background-color: rgb(171, 221, 179);
             width: 30%;
             float: left;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             margin: 10px;
             }
@@ -51,5 +51,7 @@ body {
     
 }
 .footer {
-    float: none;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px
 }
