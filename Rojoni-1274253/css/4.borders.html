@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders</title>
+    <style>
+        .mixed{
+            border-top: 2px double blue;
+            border-left: 15px ridge red;
+            border-right: 30px groove green ;
+            border-bottom:  10px inset brown;
+
+        }
+        .box{
+            height: 500px;
+            width: 500px;
+            border: 5px solid black;
+            padding: 20px;
+           margin-left: 300px;
+           border-left: 30px solid red;
+        }
+
+        .box1{
+            height: 300px;
+            width: 300px;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+        .box2{
+            height: 300px;
+            width: 300px;
+            border: 3px groove rgb(212, 16, 16);
+            border-radius: 10px 15px 30px 5px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        .box3{
+            height: 300px;
+            width: 300px;
+            border: 3px inset blue;
+            border-radius: 10px 15px 30px 5px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <p style="border: 1px solid black;">A paragraph with all solid borders</p>
+    <p style="border: 1px dotted red;">A paragraph with all dotted  borders</p>
+    <p style="border: 1px dashed blue;">A paragraph with all dashed borders</p>
+    <p style="border:3px ridge rgb(202, 52, 52);">A paragraph with all ridge borders</p>
+    <p style="border:3px groove rgb(202, 52, 52);">A paragraph with all groove borders</p>
+    <p style="border:3px inset rgb(202, 52, 52);">A paragraph with all inset borders</p>
+    <p style="border:3px outset rgb(202, 52, 52);">A paragraph with all outset borders</p>
+
+
+
+    <p class="mixed">A paragraph with all  borders</p>
+
+
+    <div>
+        <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor saepe nisi reprehenderit vero obcaecati, ea doloremque modi consequatur accusamus earum dolorum? Quos totam tenetur, nostrum facilis voluptate praesentium earum.</p>
+    </div>
+    <div>
+        <p class="box1">This is box1</p>
+        <p class="box2">This is box2</p>
+        <p class="box3">This is box3</p>
+    </div>
+</body>
+</html>
