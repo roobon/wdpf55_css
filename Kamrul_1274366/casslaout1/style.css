@@ -1,0 +1,83 @@
+.header{
+    background-color: rgb(179, 233, 233);
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+    
+}
+.header img{
+    height:200px ;
+    width:100% ;
+    text-align: center;
+}
+.header h1{
+    color: blue;
+}
+.nav-menu{
+    background-color: blue;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+   
+}
+.nav-menu a{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.nav-menu a:hover{
+    background-color: black;
+    color: red;
+}
+.row{
+    width: 100%;
+    
+}
+.colum1, .colum2, .colum3{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    height: 300px;
+    border: 1px solid black;
+     margin: 5px;
+     text-align: center;
+  
+}
+.colum1{
+    background-color: rgb(144, 201, 235);
+    font-size: 25px;
+    color: blue;
+}
+.colum2{
+    background-color: rgb(144, 201, 235);
+    font-size: 25px;
+    color: blue;
+}
+.colum3{
+    background-color: rgb(144, 201, 235);
+    font-size: 25px;
+    color: blue;
+}
+h3{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    color: rgb(177, 16, 16);
+}
+footer{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid rgb(11, 24, 204);
+    margin-top: 15px;
+    background-color: rgb(112, 214, 214);
+    color: rgb(148, 5, 105);
+}
+.search{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
