@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Evidence</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        /* body,html{
+        } */
+        #banner{
+            width: 100vw;
+        }
+        #banner img{
+            width: 100%;
+            height: 50vh;
+        }
+        #common{
+            background-color: bisque;
+            height: 35px;
+        }
+        #common nav ul{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #common nav ul li{
+            list-style-type: none;
+            padding: 8px 0;
+            margin: 0 auto;
+        }
+        #common nav ul li a{
+            text-decoration: none;
+            color: gray;
+            transition: ease-in .2s;
+        }
+        #common nav ul li a:hover{
+            text-decoration: underline;
+            color: black;
+            text-shadow: 0 0 4px red;
+        }
+        #content{
+            width: 95vw;
+            margin: 15px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .box1, .box2, .box3{
+            height: 50%;
+            width: 30%;
+            border: 1px solid black;
+            padding: 15px;
+            text-align: justify;
+        }
+        .box1{
+            background-color: lightyellow;                                                               ;
+        }
+        .box1 h2{
+            text-transform: uppercase;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .box2{
+            background-color: lightblue                                                               ;
+        }
+        .box2 h2{
+            text-transform: uppercase;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .box3{
+            background-color: rgb(160, 255, 242)                                                               ;
+        }
+        .box3 h2{
+            text-transform: uppercase;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .center{
+            text-align: center;
+            padding-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- banner section -->
+    <div id="banner">
+        <img src="banner1.jpg" alt="banner_img">
+    </div>
+    <!-- common section -->
+    <div id="common">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- content section -->
+    <div id="content">
+        <div class="box1">
+            <h2>Lorem ipsum, dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt laborum repudiandae labore, aperiam repellat culpa dolorem rerum veritatis nesciunt. Accusamus fuga sed, provident at unde voluptatum exercitationem soluta minus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis laborum excepturi deleniti illo rem. Sapiente in ratione dolor molestias pariatur?</p>
+        </div>
+        <div class="box2">
+            <h2>Lorem ipsum, dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt laborum repudiandae labore, aperiam repellat culpa dolorem rerum veritatis nesciunt. Accusamus fuga sed, provident at unde voluptatum exercitationem soluta minus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis laborum excepturi deleniti illo rem. Sapiente in ratione dolor molestias pariatur?</p>
+        </div>
+        <div class="box3">
+            <h2>Lorem ipsum, dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sunt laborum repudiandae labore, aperiam repellat culpa dolorem rerum veritatis nesciunt. Accusamus fuga sed, provident at unde voluptatum exercitationem soluta minus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis laborum excepturi deleniti illo rem. Sapiente in ratione dolor molestias pariatur?</p>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div id="common" class="center">
+        &copy; all rights reserved.
+    </div>
+</body>
+</html>

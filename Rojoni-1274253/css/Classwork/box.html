@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box</title>
+    <style>
+        .heading img{
+            margin: 3px;
+            height: 300px;
+            width:100%;
+        }
+        .menu{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(123, 245, 202);
+          
+            border-radius: 5px;
+
+        }
+    .menu1{
+        float: left;
+        padding: 10px;
+    }
+    .menu2{
+        float: left;
+        padding: 10px;
+    }
+    .menu3{
+        float: left;
+        padding: 10px;
+    }
+    .box{
+        height: 200px;
+            width:33%;
+            background-color: rgb(123, 245, 202);
+           margin: 5px;
+            border-radius: 5px;
+            text-align: center;
+    }
+.container{
+    display: flex;
+    
+}
+footer{
+    background-color: rgb(123, 245, 202);
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <img src="web.jpg" alt="">
+    </div>
+
+
+    <div class="menu">
+        <div class="menu1">About</div>
+        <div class="menu2">Home</div>
+        <div class="menu3">Link</div>
+
+    </div> 
+
+
+    <div class="container">
+        <div class="box">
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate sapiente eveniet amet ipsam culpa id veniam, excepturi reprehenderit fugit possimus eligendi modi quisquam laboriosam accusantium dolorem minima aliquid adipisci?</p>
+    
+        </div>
+        <div class="box">
+            <h1>Heading 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate sapiente eveniet amet ipsam culpa id veniam, excepturi reprehenderit fugit possimus eligendi modi quisquam laboriosam accusantium dolorem minima aliquid adipisci?</p>
+    
+        </div>
+        <div class="box">
+            <h1>Heading 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate sapiente eveniet amet ipsam culpa id veniam, excepturi reprehenderit fugit possimus eligendi modi quisquam laboriosam accusantium dolorem minima aliquid adipisci?</p>
+    
+        </div>
+    </div>
+    <footer>Copy Right</footer>
+
+    
+</body>
+</html>
