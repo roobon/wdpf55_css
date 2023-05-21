@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border</title>
+    <style>
+
+        .mixed {
+            border-top: 2px double blue;
+            border-left: 15px ridge green;
+            border-right: 30px groove red;
+            border-bottom: 20px inset black;
+        }
+        div {
+            width: 500px;
+            height: 500px;
+            border-top: 20px ridge rgb(61, 54, 54);
+            border-left: 25px double yellowgreen;
+            border-right: 20px inset brown;
+            border-bottom: 15px groove gray;
+
+        }
+        .box1 {
+            height: 300px;
+            width: 300px;
+            border: 5px solid rgb(62, 88, 17);
+            border-radius: 10px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        
+        .box2 {
+            height: 300px;
+            width: 300px;
+            border: 3px groove gold;
+            border-radius: 10px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        .box3 {
+            height: 300px;
+            width: 300px;
+            border-left: 10px dashed coral;
+            border-top: 5px outset forestgreen;
+            border-right: 10px dotted rgb(158, 240, 158);
+            border-bottom: 5px ridge indigo;
+            border-radius: 20px 30px 40px 50px;
+            float: left;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <p style="border: 1px solid black;">A paragraph with all solid borders</p>
+    <p style="border: 1px dotted rgb(219, 17, 17);">A paragraph with all dotted borders</p>
+    <p style="border: 1px dashed rgb(248, 102, 102);">A paragraph with all dashed borders</p>
+    <p style="border: 3px ridge rgb(176, 241, 102);">A paragraph with all ridge borders</p>
+    <p style="border: 3px groove rgb(214, 236, 15);">A paragraph with all groove borders</p>
+    <p style="border: 3px inset rgb(176, 241, 102);">A paragraph with all inset borders</p>
+    <p style="border: 3px outset rgb(176, 241, 102);">A paragraph with all outset borders</p>
+    <p style="border: 3px double rgb(37, 182, 240);">A paragraph with all double border</p>
+    <p class="mixed">A paragraph with all mixed borders</p>
+    <div>
+        <img src="stock.webp" alt="" height="500px" width="500px">
+    </div>
+   <div class="box1">
+    
+   </div>
+   <div class="box2">
+
+   </div>
+   <div class="box3">
+
+   </div>
+</html>
