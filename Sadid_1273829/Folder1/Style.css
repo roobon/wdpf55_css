@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    height: 120px;
+    padding: 10px;
+}
+.header h2{
+    color: rgb(4, 95, 175);
+}
+.search{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.search input{
+    width: 300px;
+    padding: .35rem;
+    outline: none;
+    font-size: 14px;
+}
+.search button{
+    padding: .45rem;
+    background-color: pink;
+    border: none;
+}
+.search button:hover{
+    background-color: lightcoral;
+}
+.nav_menu{
+    background-color: lightsalmon;
+    height: 2.6rem;
+    text-align: end;
+}
+.nav_menu a{
+    padding: 10px 16px;
+    display: inline-block;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    transition: ease .23s;
+    font-size: 1.2rem;
+}
+.nav_menu a:hover{
+    color: black;
+    text-shadow: 0 0 2px red;
+}
+.row{
+    width: 100vw;
+}
+.row .box{
+    width: 31%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 15px ;
+    float: left;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+footer{
+    clear: both;
+    background-color: gainsboro;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+}
