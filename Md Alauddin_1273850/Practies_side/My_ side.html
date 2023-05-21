@@ -16,8 +16,10 @@
         }
         h1 {
             border: 5px ridge darkcyan;
+            position: relative;
+            left: 150px;
             background-color: antiquewhite;
-            height: 80px;
+            height: 100px;
             width: 800px;
             display: flex;
             justify-content: center;
@@ -31,8 +33,10 @@
             padding: 20px;
             text-align: center;
             border-radius: 25px;
-           word-spacing: 15px;
-          
+            word-spacing: 15px;
+            position: relative;
+            top: 60px;
+
            
         }
         a {
@@ -42,16 +46,24 @@
             height: 1000px;
             width: 1000px;
         }
+        body {
+            background-image: url(im/img_tree.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: whitesmoke;
+        }
 
     </style>
 </head>
 <body>
-    <h1>Welcome to My Side " Make your life easy</h1>
+    <div>
+        <div><h1>Welcome to My Side " Make your life easy"</h1></div> 
         <div class="menu">
             <a href="home.html" target="myframe">Home</a>
             <a href="About.html" target="myframe">About</a>
             <a href="Contact.html" target="myframe">Contact</a>
         </div>
+    </div>    
         <div>
             <iframe src="home.html" frameborder="0" name="myframe"></iframe>
         </div>
