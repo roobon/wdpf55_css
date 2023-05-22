@@ -1,0 +1,57 @@
+.header{
+    background-color: yellow;
+    text-align: center;
+    height: 90px;
+    padding: 20px;
+}
+.header h2 { 
+    color: rgb(42, 85, 165);
+    font-size: 40px;
+}
+.nav-menu{
+    background-color: darkgreen;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.nav-menu a{
+    /* float: left; */
+    padding:25px 35px;
+    text-decoration: none; color: aliceblue;}
+    .nav-menu a:hover{
+        background-color: firebrick;
+        color:#fff; 
+        
+       
+    }
+
+    .row{
+        display: flex;
+       justify-content: space-around;
+    }
+    .colA,.colB,.colC{
+        width: 30%;
+        height: 200px;
+        padding: 10px;
+        /* float: left; */
+        background-color: dimgray;
+        color: white;
+        /* margin-left: 10px; */
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    footer{
+        clear: both;
+        width: 100%;
+        padding: 10px;
+        height: 40px;
+        border:2px solid rgb(28, 109, 62);
+        text-align: center;
+        background-color: rgb(28, 109, 62);
+        color: white;
+    
+    }
+    .search{
+        float: right;
+        position: top 40px;
+    }

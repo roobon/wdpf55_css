@@ -1,0 +1,79 @@
+
+
+.Header-container{
+    background-color: rgb(55, 106, 182);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+.menu-container{
+    list-style-type: none;
+    display: flex;
+    margin-left: 15px;
+}
+.menu1, .menu2, .menu3{
+    padding: 10px;
+    padding-left: 10px;
+}
+.menu1{
+    background-color: rgb(55, 106, 182);
+    color: white;
+    border-radius: 5px;
+}
+
+    .menu1:hover{
+        background-color: white;
+        border: 1px solid rgb(55, 106, 182) ;
+        border-radius: 5px;
+        color: rgb(55, 106, 182);
+    }
+
+    /* section styles */
+    .section_container{
+        display: flex;
+        margin-left: 40px;
+    }
+    .left_section{
+        margin-left: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .color{
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(55, 106, 182);  
+    }
+    .form{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        
+    }
+   textarea{
+    margin-top: 5px;
+   }
+    .search_form{
+        background-color: rgb(55, 106, 182) ;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    /* .right-sectoion style started */
+
+    .right-sectoion{
+        margin-left: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    /* footer styles */
+    footer{
+        background-color: rgb(55, 106, 182) ;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+
+    }
