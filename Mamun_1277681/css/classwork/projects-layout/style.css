@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.banner{
+   background-color: black;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 8%;
+   margin-right: 8%;
+   margin-bottom: 8%;
+   border-radius: 10px;
+
+   
+}
+.banner-content{
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+.banner-content h2{
+    font-size: 70px;
+    /* padding: 10px; */
+}
+/* .banner-img img{
+    max-width: 100%;
+    height: auto;
+} */
+.btn{
+    background-color: rgb(0, 169, 0);
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+/* menu button styles */
+
+.menu{
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    align-items: center;
+    text-align: center;
+}
+.menu_btn1{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.menu_btn2, .menu_btn3{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px; 
+    margin: 5px;
+}
+.menu_container{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+    /* align-items: center;
+    text-align: center; */
+}
+.teams_container{
+    display: flex;
+    
+    
+}
+.teams{
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.team{
+    display: flex;
+   
+    align-content: center;
+    align-items: center;
+}
+.team-content{
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.container{
+     background-color:black;
+     display: flex;
+     color: white;
+     font-size: 30px;
+}
+.button{
+     background-color: antiquewhite;
+     right: 50px;
+     padding: 5px;
+}

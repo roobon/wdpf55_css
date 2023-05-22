@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(93, 93, 223);
+    height: 120px;
+    padding: 10px 10px 10px 30px;
+    color: aliceblue;
+}
+.container{
+    background-color: rgb(134, 134, 246);
+    height: 20px;
+    padding: 5px 5px 5px 20px; 
+}
+.container a:hover{
+    background-color:white;
+    color: black;
+}
+.menubar{
+    border: 1px solid black;
+    width: 140px;
+    padding: 5px 0px 5px 5px;
+}

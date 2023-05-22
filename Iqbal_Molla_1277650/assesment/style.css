@@ -1,0 +1,58 @@
+.header {
+   
+    background-color: aquamarine;
+    text-align: center;
+    height: 120px;
+    font-size: 30px;
+    padding: 15px; 
+}
+.header h2{
+    color: rgb(4, 95, 175);
+}
+.nav-menu{
+    background-color: blue;
+    overflow: hidden;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+   
+}
+.nav-menu a{
+    color: white;
+   text-decoration: none;
+    margin-left: 0px;
+}
+.nav-menu a:hover{
+    background-color: #fff;
+    color: red;
+}
+.columnA,.columnB,.columnC{
+    width: 31%;
+    padding: 10px;
+    float: left;
+    text-align: justify;
+    border: 3px solid brown;
+    height: 200px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+.last h5 {
+    padding: 10px;
+    background-color: cadetblue;
+    text-align: center; 
+    border: 2px solid black; 
+    margin-top: 50px;
+}
+.last{
+    clear: both;
+    /* margin-top: 20px; */
+    height: 100px;
+}
+
+.search{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    border-radius: 5px;
+}
