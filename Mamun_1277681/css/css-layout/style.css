@@ -16,7 +16,8 @@ margin: 5px;
 }
 .container{
     display: flex;
-    align-items: center;
+    align-items: center
+    ;
 }
 .nav_menu{
     background-color: rgb(255, 234, 252);
