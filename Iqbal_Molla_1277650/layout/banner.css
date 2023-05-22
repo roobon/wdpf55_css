@@ -1,0 +1,11 @@
+.box{    
+     float: left;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+.picture{
+     width: 100px;
+     height: 100px;
+     right: 50px;
+     top: 50px;
+}

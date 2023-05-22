@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    
+}
+.circle{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation-name: circle-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circle-animation {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: red;
+        top: -100px;
+        left: 0;
+    }
+    50%{
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    75%{
+        background-color: red;
+        top: 100px;
+        left: 0;
+    }
+    100%{
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+
+}
