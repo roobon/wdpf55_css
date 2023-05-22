@@ -1,0 +1,116 @@
+
+/* ===== heading start ==== */
+
+body {
+    margin: 0;
+}
+
+.banner{
+    background-color: rgb(54, 189, 243);
+    height: 70px;
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+small {
+    font-size: 12px;
+}
+
+.banner p {
+    display: inline;
+}
+
+.banner h1 {
+    display: inline;
+}
+
+
+/* ==== ======== ==== */
+
+
+/* ====== main start ===== */
+
+
+
+/* ==== menu bar ===== */
+nav {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.top-menu a:hover {
+    background-color: rgb(91, 91, 240);
+    color: aliceblue;
+    padding: 10px;
+    
+}
+
+.top-menu{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mid-a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.blue-box{
+    background-color: rgb(54, 189, 243);
+    width: 30px;
+    height: 20px;
+}
+/* ===================== */
+
+
+/* ======= left col ===== */
+
+.col-1{
+    width: 250px;
+    border: 2px solid grey;
+}
+
+.search-box{
+    border: 2px solid grey;  
+    margin-top: 20px;
+}
+
+.search-box h4 {
+    background-color: rgb(54, 189, 243);
+    padding: 10px;
+    margin-top: -1px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    
+    
+}
+
+.col-2 h3 {
+    background-color: rgba(128, 128, 128, 0.397);
+    border: 1px solid black;
+}
+
+.col-2 {
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: rgb(54, 189, 243);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}

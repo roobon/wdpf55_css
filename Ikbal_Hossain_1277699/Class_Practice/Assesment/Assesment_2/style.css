@@ -1,0 +1,53 @@
+.heading {
+    height: 120px;
+    background-color: royalblue;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.heading h1 {
+    display: inline;
+}
+
+.heading P {
+    display: inline;
+}
+
+.nav a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+
+.nav a:hover {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+}
+
+.nav {
+    margin-top: 12px;
+}
+
+.column1 {
+    width: 280px;
+    height: 200px;
+    border: 2px solid gray;
+
+    margin-top: 12px;
+}
+.column1 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+    font-size: small;
+}
+.column1 a:hover {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+}

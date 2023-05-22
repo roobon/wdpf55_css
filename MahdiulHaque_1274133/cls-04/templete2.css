@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: rgb(94, 219, 94);
+    height: 800px;
+}
+ .header{
+    width: 100%;
+    background-color: rgb(86, 86, 187);
+    height: 195px;
+    text-align: center;
+    
+ }
+ .menu{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(227, 203, 203);
+    margin: auto;
+ 
+ 
+ }
+.menu ,ul, li, a{ 
+    display: block;
+    text-decoration: none;
+    padding: 9px;
+    color: black;
+    background-color: pink;
+    width: 80%;
+    margin-top: 50px;
+    
+  }
+  a:hover{
+    color: rgb(35, 150, 216);
+    background-color: darkcyan;
+ }
+ .left ,ul, li, a{
+    margin-top: 20px;
+    padding: 5px;
+    
+
+ }
+ .left{
+    width: 45%;
+    height: 400px;
+    float: left;
+ }
+ .right{
+    margin-top: 200px;
+    
+ }
+ .footer{
+    margin-top: 120px;
+
+ }
