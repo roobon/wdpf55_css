@@ -10,9 +10,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            overflow: hidden;
+            overflow-x: hidden;
         }
-        /* body,html */
         #banner{
             width: 100vw;
         }
@@ -71,10 +70,29 @@
          .box1{
             background-color: lightskyblue;
          }
+         .box2{
+            background-color: lightgoldenrodyellow;
+         }
          .box2 h2 {
             text-transform: uppercase;
             padding: 10px;
             margin-bottom: 15px;
+         }
+         .box3{
+            background-color: violet;
+         }
+         .box3 h2{
+            text-transform: uppercase;
+            padding: 10px;
+            margin-bottom: 15px;
+         }
+         .center{
+            text-align: center;
+            padding-top: 10px;
+         }
+         #common{
+            background-color: bisque;
+            height: 35px;
          }
     </style>
 </head>
@@ -82,23 +100,26 @@
     <div class="banner img">
         <img src="istockphoto-1322277517-612x612.jpg" alt="banner_img">
     </div>
-    <div id="nav">
+    <div id="common">
         <nav>
             <ul>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>Blog</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Contract</li>
-    </ul>
-    </nav>
-</div>
-<div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore deserunt ipsum fuga cum? Explicabo deleniti dolorum doloribus. Animi fugit perspiciatis temporibus beatae nemo magnam explicabo pariatur et incidunt. Dolorum.</div>
-<div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maxime quo perferendis sed blanditiis, deleniti consequatur quasi accusantium sunt aperiam quas distinctio est harum illo, ea eos vero iure assumenda!</div>
-<div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eligendi minima! Modi incidunt error laboriosam in asperiores aperiam debitis est minima reiciendis, quia voluptas temporibus accusamus eligendi officia. Reprehenderit, quibusdam.</div>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Contract</li>
+            </ul>
+        </nav>
+    </div>
+<div id="content">
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore deserunt ipsum fuga cum? Explicabo deleniti dolorum doloribus. Animi fugit perspiciatis temporibus beatae nemo magnam explicabo pariatur et incidunt. Dolorum.</div>
 
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maxime quo perferendis sed blanditiis, deleniti consequatur quasi accusantium sunt aperiam quas distinctio est harum illo, ea eos vero iure assumenda!</div>
+
+    <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eligendi minima! Modi incidunt error laboriosam in asperiores aperiam debitis est minima reiciendis, quia voluptas temporibus accusamus eligendi officia. Reprehenderit, quibusdam.</div>
+</div>
 <!-- footer section -->
 <div id="common" class="center">
-
+&copy;All rights reserved 
 </div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS PSEUDO Class</title>
+    <style>
+        a:link{
+            color: green;
+
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+        a:active{
+            color: purple;
+        }
+        p:hover{
+            background-color: red;
+            height: 100px;
+            width: 300px;
+            padding: 10px;
+        }
+        .part2{
+            display: inline;
+        }
+        .part1:hover p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h3>Pseudo class with anchor</h3>
+    <a href="https://www.yahoo.com">Yahoo</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="8.pseudoclasses.html">Current Page</a>
+
+
+
+
+    <p>This is a paragraph</p>
+    
+    <div class="part1">This is a division
+    <p class="part2">This is a paragraph</p>
+              </div>
+            
+</body>
+</html>
