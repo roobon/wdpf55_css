@@ -1,0 +1,10 @@
+#footer {
+    background-color: #252017;
+    color: #ffffff;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+   }
+    footer:hover {
+        cursor: progress;
+    }
