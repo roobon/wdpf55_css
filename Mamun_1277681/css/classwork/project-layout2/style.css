@@ -77,3 +77,15 @@
         margin-top: 10px;
 
     }
+
+    table, td, tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table{
+        width: 200px;
+    }
+    .top-form{
+        background-color: blue;
+    }

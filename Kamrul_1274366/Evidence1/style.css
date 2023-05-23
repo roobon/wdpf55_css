@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(54, 163, 226);
+    height: 150px;
+    color: #fff;
+    margin: auto 0;
+}
+.logo{
+    padding: 30px 20px;
+}
+.logo h1{
+    letter-spacing: 5px;
+}
+nav{
+    width: 90%;
+    height: 50px;
+    background-color: #fff;
+    /* float: right; */
+    padding: 8px;
+    
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 5vh;
+    
+}
+.nav1 a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav1 a:link{
+    color:#fff
+}
+.nav1 a:hover{
+   background-color: blue;
+    color: #fff;
+}
+.main{
+
+    text-align: right;
+    justify-content: center;
+   
+}
+.main .menu{
+    width: 160px;
+}
+.main .menu ul{
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+}
+.main .menu li{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid #e9d0d0;
+    list-style-type: none;
+}
+.main .menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+ .main .search{
+    
+    width: 160px;
+    border: 1px solid #e7e7e7;
+    margin-top: 3rem;
+    padding: 1rem 0;
+}
+ .mai .search input{
+    width: 120px;
+    padding: 5px;
+    margin-left: 20px;
+}
+.content{
+
+    width: 50%;
+    height: 120px;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-top: auto;
+}
+.content h1{
+    background-color: thistle;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+   
+}
