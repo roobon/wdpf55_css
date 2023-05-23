@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 150px;
+    background-color: rgb(63, 63, 245);
+    color: #fff;
+    text-align: justify;
+    padding: 25px;
+}
+h1{
+    font-size: 38px;
+}
+.menu{
+    width: 95%;
+    height:75px ;
+    background-color: rgb(241, 248, 245);
+    margin-left: auto;
+   
+}
+.menu nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+}
+.menu nav ul li{
+    list-style-type: none;
+    font-size: 22px;
+    
+}
+.menu nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    transition: ease;
+}
+.menu nav ul li a:hover{
+    background-color: blue;
+    color: #fff;
+}
+.sidebar{
+
+    /* width: 150px; */
+    height: 350px;
+    background-color: #fff;
+}
+ .list{
+    height:275px ;
+    background-color: rgb(228, 243, 237);
+    margin-left: auto;   
+}
+ .list ul{
+    height: 100px;
+    justify-content: start; 
+    list-style: none;  
+}
+.list ul li{
+    font-size: 25px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+ .list ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    transition: ease;
+}
+.list ul li a:hover{
+    
+    color: #081fec;}
+.search{
+   
+    width: 40px;
+    position: absolute;
+}
+.search input{
+   padding: 05px;
+    /* width: 45px; */
+    font-size: 12px;
+    outline: none;
+}
+.container{
+    display: flex;
+    margin-left: 70px;
+    gap: 25px;
+}
+.container .contain h2{
+    background-color: rgb(94, 94, 207);
+}
+footer{
+    background-color: rgb(28, 28, 131);
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
