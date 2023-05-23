@@ -1,0 +1,12 @@
+nav,ul,li,a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+.left{
+    clear: both;
+}
+ul,li,a{
+    display: block;
+    text-decoration: none;
+}
