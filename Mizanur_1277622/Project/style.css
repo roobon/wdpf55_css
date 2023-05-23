@@ -1,0 +1,80 @@
+/* reset code and common code here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+html{
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    width: 100rem;
+     max-width: 100%;
+     margin: auto;
+     box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+
+}
+/* reset code and common code here */
+figure, img{
+    width: 100px;
+    height: 100px;  
+    border: 2px solid orange; 
+}
+/* Header Starts here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 10vh;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+nav ul li{
+    padding: 1rem;
+    transition: all 0.4s;
+}
+nav ul li:hover{
+    background-color: orange;
+    border-radius: 15px;
+}
+.nav-link{
+    font-size: 1.8rem;
+    color: white;
+    cursor:grab;
+}
+/* Header end here */
+/* Responsiveness Start here */
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 55.5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 48.5%;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-left: 2.5rem;
+    }
+}
+/* Responsiveness end here */
