@@ -22,7 +22,6 @@ body {
   flex-grow: 1;
 }
 .child {
-  display: ;
   align-items: center;
   justify-content: center;
   margin: 0;

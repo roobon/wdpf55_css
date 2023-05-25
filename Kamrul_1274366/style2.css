@@ -1,0 +1,25 @@
+#wrapper{
+    width: 100%;
+    min-width: 550px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.header{
+    height: 120px;
+    background-color: aquamarine;
+    color: #fff;
+    padding: 25px;
+}
+#sidebar{
+    width: 33%;
+    padding: 10%;
+    float: left;
+    background-color: #e95353;
+}
+#main{
+    margin-left: 36%;
+    margin-left: -moz-call(33%+20px);
+    margin-left: -webkit-calc(33%+20px);
+    margin-left: -calc(33%+20px);
+    padding: 10px 20px;
+}
