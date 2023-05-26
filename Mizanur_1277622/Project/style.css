@@ -1,80 +1,187 @@
 /* reset code and common code here */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    outline: none;
-    font-weight: 400;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
 }
-html{
-    background-color: #fafafa;
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-    width: 100rem;
-     max-width: 100%;
-     margin: auto;
-     box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
-
+html {
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  width: 100rem;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-white{
+    color: white;
+}
+.btn{
+    background-color: orange;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.section-heading{
+    font-size: 5rem;
+    text-align: center;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* reset code and common code here */
-figure, img{
-    width: 100px;
-    height: 100px;  
-    border: 2px solid orange; 
+figure,
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid orange;
 }
 /* Header Starts here */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 2rem 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    min-height: 10vh;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-height: 10vh;
 }
-nav ul{
-    display: flex;
-    gap: 2rem;
+nav ul {
+  display: flex;
+  gap: 2rem;
 }
-nav ul li{
-    padding: 1rem;
-    transition: all 0.4s;
+nav ul li {
+  padding: 1rem;
+  transition: all 0.4s;
 }
-nav ul li:hover{
-    background-color: orange;
-    border-radius: 15px;
+nav ul li:hover {
+  background-color: orange;
+  border-radius: 15px;
 }
-.nav-link{
-    font-size: 1.8rem;
-    color: white;
-    cursor:grab;
+.nav-link {
+  font-size: 1.8rem;
+  color: white;
+  cursor: grab;
 }
 /* Header end here */
+
+
+/* Banner Starts Here */
+.banner{
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+}
+.banner-image{
+    width: 55rem;
+    height: 45rem;
+    border: 0.3rem solid;
+}
+.banner article{
+    flex-basis: 50%;
+    margin: 2rem;
+    text-align: justify;
+}
+.bannerh1{
+    display: inline-block;
+    background-color: black;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 12rem;
+}
+.bannerpara{
+    font-size: 1.5rem;
+}
+.banner aside{
+    flex-basis: 50%;
+    text-align: center;
+}
+/* Banner End Here */
+
+
+/* About Section Start Here */
+#blog-about{
+    background-color: #4c4c4c;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.card{
+    flex: 1;
+    border-radius: 0.6rem;
+    background-color: #a09d9d;
+    padding: 3rem 1rem;
+    margin: 2rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-header{
+    font-size: 2rem;    
+}
+.card-para{
+    padding: 0.4rem 0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.card-btn{
+    width: 80%;
+}
+/* About Section End Here */
+
+
+
 /* Responsiveness Start here */
-@media screen and (max-width: 992px) {
-    
-}
-@media screen and (max-width: 768px) {
-    html {
-        font-size: 55.5%;
+    /*  
+    @media screen and (max-width: 992px) {
+        
     }
-}
-@media screen and (max-width: 600px) {
-    html {
-        font-size: 48.5%;
+    @media screen and (max-width: 768px) {
+        html {
+            font-size: 55.5%;
+        }
     }
-    header{
-        flex-direction: column;
+    @media screen and (max-width: 600px) {
+        html {
+            font-size: 48.5%;
+        }
+        header{
+            flex-direction: column;
+        }
+        nav ul{
+            flex-direction: column;
+            padding-left: 2.5rem;
+        }
     }
-    nav ul{
-        flex-direction: column;
-        padding-left: 2.5rem;
-    }
-}
+    */
 /* Responsiveness end here */

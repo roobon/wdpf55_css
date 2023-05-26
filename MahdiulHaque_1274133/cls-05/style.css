@@ -1,0 +1,23 @@
+#sidebar {
+    width: 33%;
+    padding: 10px;
+    float: left;
+    background-color: aqua;
+}
+#main {
+    margin-left: 36%;
+    margin-left: -moz-calc(33% + 20px);
+    margin-left: -webkit-calc(33% + 20px);
+    margin-left: calc (33% + 20px);
+    padding: 10px 20px;
+}
+#wrapper {
+    width: 100%;
+    min-width: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(126, 163, 126);
+}
+#header {
+    background-color: aqua;
+}
