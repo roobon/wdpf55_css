@@ -17,7 +17,7 @@
   <body>
     <header id="blog-header">
       <figure>
-        <img src="image/mlogo.jpg" alt="" />
+        <img src="image/mlogo.jpg" alt="" class="logo" />
       </figure>
       <nav id="menu-icon">
         <ul>
@@ -94,16 +94,73 @@
       </section>
       <!-- About Me Section End Here -->
 
-      <!-- Archive Section Start Here -->
-      <section id="archive" class="section-center">
-        <h2 class="section-heading">Archives</h2>
-        <div class="archives-container">
-          <ul class="archives-lists">
-            <li class="archives-list"><img src="image/1.jpg" alt="image1"></li>
+      <!-- projects Section Start Here -->
+      <section id="projects" class="section-center">
+        <h2 class="section-heading" style="color: white;">Projects</h2>
+        <div class="projects-container">
+          <ul class="projects-lists">
+            <li class="projects-list"><img src="image/Template-1.png" alt="image1" class="projects-img"></li>
+            <li class="projects-list"><img src="image/Template-2.png" alt="image1" class="projects-img"></li>
+            <li class="projects-list"><img src="image/Template-3.png" alt="image1" class="projects-img"></li>
           </ul>
         </div>
       </section>
-      <!-- Archive Section End Here -->
+      <!-- projects Section End Here -->
+      <!-- Blog Section Start Here -->
+      <div id="blog-posts" class="section-center">
+        <h2 class="section-heading">Blog</h2>
+       <div class="blog-post">
+        <aside class="blog-post-aside">
+          <img src="image/mlogo.jpg" alt="#">
+        </aside>
+        <article class="blog-post-content">
+          <h2 class="blog-heading">News 1</h2>
+          <p class="blog-post-news">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptatum ipsa laboriosam, debitis natus voluptatem excepturi earum repudiandae maxime. Sit, ab? Quasi, nam. Quaerat necessitatibus nam, molestiae ratione sequi dolore!</p>
+          <button class="blog-btn">Read More</button>
+        </article>
+       </div>
+       <div class="blog-post">
+        <aside class="blog-post-aside">
+          <img src="image/mlogo.jpg" alt="#">
+        </aside>
+        <article class="blog-post-content">
+          <h2 class="blog-heading">News 2</h2>
+          <p class="blog-post-news">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptatum ipsa laboriosam, debitis natus voluptatem excepturi earum repudiandae maxime. Sit, ab? Quasi, nam. Quaerat necessitatibus nam, molestiae ratione sequi dolore!</p>
+          <button class="blog-btn">Read More</button>
+        </article>
+       </div>
+      </div>
+      <!-- Blog Section End Here -->
+
+      <!-- Contact Me Start Here -->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading" style="color: #ffffff;">Contact Me</h2>
+        <form>
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" required>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" required>
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-control form-btn">
+            <button type="submit" class="submit-btn">Submit</button>
+          </div>
+
+        </form>
+      </section>
+      <!-- Contact Me End Here -->
+      <!-- Footer start here -->
+      <div id="footer">
+        <h2>Created by &copy; Mizanur Rahman &REG;</h2>
+      </div>
+      <!-- Footer end here -->
+
     </main>
   </body>
 </html>
