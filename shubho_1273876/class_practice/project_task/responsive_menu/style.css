@@ -44,3 +44,99 @@ header ul li a {
 header ul li a:hover {
   background: #2b93e3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For 3 texts */
+.textcarousel, .textcarousel2, .textcarousel3{
+  pointer-events: none;
+  opacity: 0;
+}
+.textcarousel{
+  -webkit-animation: tcarousel 15s ease infinite;
+          animation: tcarousel 15s ease infinite;
+}
+.textcarousel2{
+  -webkit-animation: tcarousel 15s ease -3s infinite;
+          animation: tcarousel 15s ease -3s infinite;
+}
+.textcarousel3{
+  -webkit-animation: tcarousel 15s ease 3s infinite;
+          animation: tcarousel 15s ease 3s infinite;
+}
+@-webkit-keyframes tcarousel{
+  0%{
+      opacity: 0;
+      -webkit-transform: translateX(30px);
+              transform: translateX(30px);
+      pointer-events: none;
+  }
+  6%{
+      opacity: 1;
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      pointer-events: all;
+  }
+  30%{
+      opacity: 1;
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      pointer-events: all;
+  }
+  36%{
+      opacity: 0;
+      -webkit-transform: translateX(-30px);
+              transform: translateX(-30px);
+      pointer-events: none;
+  }
+  100%{
+      opacity: 0;
+      pointer-events: none;
+  }
+}
+@keyframes tcarousel{
+  0%{
+      opacity: 0;
+      -webkit-transform: translateX(30px);
+              transform: translateX(30px);
+      pointer-events: none;
+  }
+  6%{
+      opacity: 1;
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      pointer-events: all;
+  }
+  30%{
+      opacity: 1;
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      pointer-events: all;
+  }
+  36%{
+      opacity: 0;
+      -webkit-transform: translateX(-30px);
+              transform: translateX(-30px);
+      pointer-events: none;
+  }
+  100%{
+      opacity: 0;
+      pointer-events: none;
+  }
+}
+
