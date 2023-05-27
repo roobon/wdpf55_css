@@ -1,0 +1,102 @@
+/* Header style start */
+*{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Header{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-img{
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.header-right{
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login{
+    color: blue;
+}
+/* \Header style end */
+
+/* Nav stytle started */
+
+.Nav-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    padding: 10px;
+}
+.nav-border{
+    border: 1px solid rgb(219, 219, 219);
+   
+}
+/* nav stytle end */
+
+/* main section style started */
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* left section styles start5 */
+.right-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    border-left: 1px solid rgb(230, 230, 230);
+    margin-left: 10px;
+}
+.left-section h1{
+    font-size: 50px;
+    
+    
+}
+.news-cointainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+/* left section styles end */
+
+/* right section styles strart */
+
+/* title section styles start */
+.title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.title-items{
+    padding: 10px;
+}
+.title-items img{
+    width: 100%;
+}
+/* title section styles end */
+
+/* adds section styles */
+.add-container{
+   display: grid;
+   gap: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
