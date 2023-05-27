@@ -15,21 +15,24 @@
     
  }
  .menu{
-    width: 50%;
-    height: 80px;
+   clear: both;
+    width: 23%;
+    height: 200px;
     background-color: rgb(227, 203, 203);
     margin: auto;
+    padding: 15px;
  
  
  }
-.menu ,ul, li, a{ 
-    display: block;
+.menu ,ul, li, a{
+    clear: both;
+   
     text-decoration: none;
-    padding: 9px;
-    color: black;
-    background-color: pink;
-    width: 80%;
-    margin-top: 50px;
+    padding: 12px;
+    color: rgb(232, 220, 220);
+    background-color: rgb(115, 98, 101);
+    width: 35%;
+    margin-top: 5px;
     
   }
   a:hover{
@@ -37,12 +40,17 @@
     background-color: darkcyan;
  }
  .left ,ul, li, a{
+   clear: both;
     margin-top: 20px;
     padding: 5px;
+    width: 50%;
+    text-align: center;
+    
     
 
  }
  .left{
+   clear: both;
     width: 45%;
     height: 400px;
     float: left;
