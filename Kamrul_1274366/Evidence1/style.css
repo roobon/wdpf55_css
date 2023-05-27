@@ -18,9 +18,10 @@ header{
 nav{
     width: 90%;
     height: 50px;
-    background-color: #fff;
+    background-color: #fdfafa;
     /* float: right; */
     padding: 8px;
+    margin-left: auto;
     
 }
 .nav1{
@@ -35,65 +36,90 @@ nav{
     padding: 10px;
     font-size: 20px;
 }
-.nav1 a:link{
-    color:#fff
-}
 .nav1 a:hover{
    background-color: blue;
     color: #fff;
 }
-.main{
-
-    text-align: right;
-    justify-content: center;
+.main2{
+    height: 400px;
+    width: 250px;
+}
+.main2 .list{
+    height: 280px;
+    margin-left: auto;
    
 }
-.main .menu{
-    width: 160px;
+.list ul{
+    height: 280px;
+
 }
-.main .menu ul{
-    padding: 10px;
-    border: 1px solid #e7e7e7;
-}
-.main .menu li{
+.list ul li{
+    height: 40px;
+    width: 250px;
+    border: 1px solid rgb(119, 110, 110);
     font-weight: 700;
-    font-size: 18px;
-    padding: 16px 0;
-    border-bottom: 1px solid #e9d0d0;
-    list-style-type: none;
-}
-.main .menu li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-}
- .main .search{
-    
-    width: 160px;
-    border: 1px solid #e7e7e7;
-    margin-top: 3rem;
-    padding: 1rem 0;
-}
- .mai .search input{
-    width: 120px;
-    padding: 5px;
-    margin-left: 20px;
-}
-.content{
-
-    width: 50%;
-    height: 120px;
-    border: 1px solid #e7e7e7;
-    padding: 20px;
-    margin-top: auto;
-}
-.content h1{
-    background-color: thistle;
-    margin: 10px 0;
-}
-
-.container {
-    display: flex;
-    gap: 20px;
+    list-style: none;
    
+    
+}
+.list ul li a{
+    text-decoration: none;
+    margin: 30px;
+    padding: 05px;
+    text-align: center;
+    
+}
+.list ul li a:hover{
+    background-color: blue;
+    color: #fff;
+}
+.search{
+    border: 1px solid black;
+    height: 120px;
+}
+.boox1{
+    border: 1px solid black;
+    height: 30px;
+   
+    color: #fff;
+    background: blue;
+    padding: 5px;
+    margin: 5px;
+}
+.search form{
+    border: 1px solid black;
+    height: 50px;
+    width: 220px;
+    margin: 5px;
+}
+.search form input{
+    margin: 5px;
+    width: 100px;
+    font-weight: 20px;
+}
+.contain{
+    border: 1px solid black;
+    height: 400px;
+    width: 900px;
+}
+.contain h2{
+    border: 1px solid black;
+    background-color: rgb(240, 240, 231);
+    margin: 5px;
+}
+.contain p{
+    margin: 5px;
+}
+footer{
+    height: 30px;
+    background-color: rgb(54, 67, 241);
+    text-align: center;
+    color: #fdfafa;
+    padding: 5px;
+}
+.main{
+    margin-left: auto;
+    width: 90%;
+    display: flex;
+    gap: 15px;
 }

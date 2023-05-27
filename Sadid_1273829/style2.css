@@ -1,0 +1,23 @@
+.wapper{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 550px;
+    max-width: 1000px;
+    background-color: #fff;
+}
+#sidebar{
+    width: 33%;
+    padding: 10px;
+    float: left;
+    background-color: #d3c898;
+}
+#main{
+    margin-left: 36%;
+    margin-left: -moz-calc(33%+20px);
+    margin-left: -webkit-calc(33%+20px);
+    margin-left: calc(33%+20px);
+    padding: 10px 20px;
+}
+#header{
+    background-color: #d3c898;
+}
