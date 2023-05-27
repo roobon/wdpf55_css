@@ -159,6 +159,13 @@ nav ul li:hover {
 }
 /* About Section End Here */
 
+/* Archive section Start here */
+
+#archive{
+    background-color: #ffffff;
+    margin-top:50px ;
+}
+/* Archive section End here */
 
 
 /* Responsiveness Start here */
