@@ -50,7 +50,7 @@
      color: aliceblue;
 }
 .div1,.div2,.div3,.div4{
-     display: flex;
+     /* display: flex; */
      border: 1px solid blue;
      margin-right: 10px;
      margin-bottom: 10px;
@@ -64,4 +64,9 @@
 }
 .in{
      display: flex;
+}
+.div1 {
+     text-align: center;
+     display: flex;
+    
 }
