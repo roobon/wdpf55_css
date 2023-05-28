@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Flex Box</title>
+    <style>
+        .header {
+            border: 1px solid rgb(219, 217, 216);
+            padding: 20px;
+            margin: 5px;
+            width: 100%;
+            height: 200px;
+            text-align: center;
+        }
+        .img1 {
+            height: 60px;
+            width: 250px;
+        }
+        .notification-bell {
+            height: 40px;
+            width: 30px;
+            position: relative;
+            left: 550px;
+            bottom: 30px;
+        }
+        .login {
+            /* width: 100px; */
+            position: relative;
+            left: 600px;
+        }
+        .flex-row1, .flex-row2, .flex-row3 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .flex-row1 > .box1 {
+            border: 1px solid rgb(219, 217, 216);
+            padding: 20px;
+            margin: 5px;
+            height: 350px;
+            width: 300px;
+
+        }
+    
+        .flex-row2 > .box1 {
+            border: 1px solid rgb(204, 199, 199);
+            padding: 20px;
+            margin: 5px;
+            height: 350px;
+            width: 300px;
+
+        }
+    
+        .flex-row3 > .box1 {
+            border: 1px solid rgb(204, 201, 200);
+            padding: 20px;
+            margin: 5px;
+            height: 350px;
+            width: 300px;
+
+        }
+        img {
+            height: 350px;
+            width: 300px;
+        }
+      
+        .img {
+            height: 100px;
+            width: 120px;
+            
+        }
+        
+      .my-div{
+        display: flex;
+      }
+        
+    </style>
+</head>
+<body>
+    <div class="flex-row1">
+        <header class="header">
+            <div>
+                <img class="img1" src="download.png" alt="">
+            </div>
+            <div>
+                <div class="login">
+                    <input type="button" value="Login">
+                </div>
+                <div>
+                    <img class="notification-bell" src="notification-bell.svg" alt="">
+                </div>
+            </div>
+        </header>
+        <div class="box1">
+            <h1>বৈশ্বিক প্রতিবেদন দেশে ৩৮ লাখ ৭৮ হাজার শিশু খর্বকায়</h1>
+            <p>অপুষ্টির শিকার এসব শিশুর সংখ্যা ৩৮ লাখ ৭৮ হাজার। এদের উচ্চতা বয়সের তুলনায় কম। দেশে এমন শিশুর সংখ্যা কমে এলেও এখনো
+
+            </p>
+        </div>
+        <div class="box1">
+            <img src="aaaa.webp" alt="">
+        </div>
+        <div class="box1">
+            <h1>বিএনপিবিহীন ভোটেও হার, চিন্তিত আ.লীগ</h1>
+            <p>বিএনপিবিহীন ওই ভোটে দলীয় প্রার্থীর পরাজয়ে ক্ষমতাসীন দলের নেতারা কিছুটা হতাশ ও চিন্তিত। তাঁরা দলের অনৈক্য ও বিরোধীদের ভোটকে এই পরাজয়ের মূল কারণ হিসেবে দেখছেন।
+
+            </p>
+        </div>
+        <div class="box1">
+            <img src="aaaa.webp" alt="">
+        </div>
+    </div>
+    <div class="flex-row2">
+        <div class="box1">
+            <h1>ফুল গাছটার আদি নিবাস আফ্রিকার মরু অঞ্চলে, বাণিজ্যিক চাষ হচ্ছে কুড়িগ্রামে
+
+            </h1>
+            <p>
+                গাছটা আমাদের দেশেও চারা তৈরি করে কেউ কেউ বিক্রিও করেন। কুড়িগ্রামে এবার ফুল গাছটার বাণিজ্যিক চাষ শুরু করেছেন দুই ভাই
+            </p>
+        </div>
+        <div class="box1">
+            <h1>
+                এক মাসে ইইউতে আশ্রয় চেয়েছে ৯ হাজারের বেশি আফগান
+            </h1>
+            <p>
+                চলতি বছরের শুরু থেকে এখন পর্যন্ত ইইউর দেশগুলোয় আফগান অভিবাসনপ্রত্যাশীর সংখ্যা আগের বছরের একই সময়ের তুলনায় ৪০ শতাং
+            </p>
+        </div>
+        <div class="box1">
+            <h1>
+                মতামত রাশিয়ার মাটিতে ঢুকে হামলা, যুদ্ধের মোড় কোন দিকে ঘুরছে?
+            </h1>
+            <p>
+                খবরে প্রকাশ যে রাশিয়ার ভেতরে বেলগ্রদ অঞ্চলে ইউক্রেনপন্থী অথবা পুতিনবিরোধী সেনাদের সঙ্গে রাশিয়ার নিরাপত্তা বাহিনীর লড়াই হয়েছে।
+            </p>
+        </div>
+        <div class="box1">
+            <img src="aaaa.webp" alt="">
+        </div>
+    </div>
+    <div class="flex-row3">
+        <div class="box1">
+           <div class="my-div">
+            <h2 class="box-header">
+                ইতিহাসের এই দিনে বেলুনে ভূপৃষ্ঠ থেকে সাড়ে
+            </h2>
+            <img class="img" src="bbb.webp" alt="">
+           </div>
+        </div>
+        <div class="box1">
+            <div class="my-div">
+                <h2> টিপস/কম দামের স্মার্টফোনে ভালো ছবি তুলবেন যেভাবে</h2>
+           <img class="img" src="ccc.webp" alt="">
+            </div>
+           
+        </div>
+        <div class="box1">
+            <div class="my-div">
+                <h2>
+                    ভিনিসিয়ুসের ঘটনায় মেসি-রোনালদো কেন চুপ
+                </h2>
+                <img class="img" src="bbb.webp" alt="" >
+            </div>
+        </div>
+        <div class="box1">
+            <img  src="aaaa.webp" alt=""> 
+        </div>
+    </div>
+    
+</body>
+</html>
