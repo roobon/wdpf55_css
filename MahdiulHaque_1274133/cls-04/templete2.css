@@ -15,6 +15,26 @@
     
  }
  .menu{
+<<<<<<< HEAD
+   clear: both;
+    width: 23%;
+    height: 200px;
+    background-color: rgb(227, 203, 203);
+    margin: auto;
+    padding: 15px;
+ 
+ 
+ }
+.menu ,ul, li, a{
+    clear: both;
+   
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(232, 220, 220);
+    background-color: rgb(115, 98, 101);
+    width: 35%;
+    margin-top: 5px;
+=======
     width: 20%;
     height: 10px;
     background-color: rgb(227, 203, 203);
@@ -31,15 +51,29 @@
     background-color: pink;
     width: 50%;
     margin-top: 50px;
+>>>>>>> 9a632849a304f785f4516ed84719572a04f6e778
     
   }
   a:hover{
     color: rgb(35, 150, 216);
     background-color: darkcyan;
+<<<<<<< HEAD
+ }
+ .left ,ul, li, a{
+   clear: both;
+    margin-top: 20px;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    
+    
+=======
  
+>>>>>>> 9a632849a304f785f4516ed84719572a04f6e778
 
  }
  .left{
+   clear: both;
     width: 45%;
     height: 400px;
     float: left;
