@@ -59,19 +59,21 @@ nav{
     border: 1px solid rgb(119, 110, 110);
     font-weight: 700;
     list-style: none;
+    
    
     
 }
 .list ul li a{
     text-decoration: none;
-    margin: 30px;
-    padding: 05px;
+    margin: 40px;
+    padding: 8px 3px;
     text-align: center;
     
 }
 .list ul li a:hover{
-    background-color: blue;
-    color: #fff;
+    color: red;
+  
+
 }
 .search{
     border: 1px solid black;
