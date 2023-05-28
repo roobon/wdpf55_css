@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box 1</title>
+    <style>
+        * {
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .container > .box1 {
+            width: 150px;
+            height: 100px;
+            padding: 20px;
+            margin: 5px;
+            background-color: rgb(18, 173, 173);
+            border: 1px solid rgb(245, 243, 243);
+             
+        }
+        .container > .header {
+            width: 100%;
+            height: 100px;
+            padding: 30px;
+            margin: 5px;
+            background-color: rgb(150, 204, 240);
+            border: 1px solid rgb(245, 243, 243);
+            
+        }
+        .footer {
+            border: 1px solid gray;
+            text-align: center;
+            
+            margin: 5px;
+            padding: 10px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Company Name</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 2" class="box1">Box1</div>
+        <div style="flex-grow: 2" class="box1">Box2</div>
+        <div style="flex-grow: 4" class="box1">Box3</div>
+        <div style="flex-grow: 2" class="box1">Box4</div>
+        <div style="flex-grow: 2;" class="box1">Box5</div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 2" class="box1">Box1</div>
+        <div style="flex-grow: 2" class="box1">Box2</div>
+        <div style="flex-grow: 2" class="box1">Box3</div>
+        <div style="flex-grow: 2" class="box1">Box4</div>
+        <div style="flex-grow: 4;" class="box1">Box5</div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 4" class="box1">Box1</div>
+        <div style="flex-grow: 2" class="box1">Box2</div>
+        <div style="flex-grow: 2" class="box1">Box3</div>
+        <div style="flex-grow: 2" class="box1">Box4</div>
+        <div style="flex-grow: 2;" class="box1">Box5</div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <h3>&copy; All Rights are Reserved </h3>
+        </footer>
+    </div>
+</body>
+</html>
