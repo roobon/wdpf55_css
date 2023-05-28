@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box 1</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+
+    }
+    .container > .box1 {
+        border: 1px solid black;
+        height: 150px;
+        background-color: aquamarine;
+        margin-left: 10px;
+    }
+    .container > .header {
+        height: 30px;
+        background-color: cyan;
+    }
+    .header h2{
+        text-align: center;
+        background-color: rgb(100, 100, 181);
+        height: 70px;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>My company name</h2>
+    </div>
+    <div class="container">
+            <div class="box1" style=" flex-grow: 6; ">আসছে বাজেট ২০২৩–২৪
+                আসছে বাজেট ২০২৩–২৪ নির্বাচনের বছরে খুশি করার প্রকল্প এবার এডিপিতে ৮২৫টি অননুমোদিত প্রকল্পের যে তালিকা রয়েছে তাতে অর্ধেকের বেশি প্রকল্পকে উচ্চ অগ্রাধিকার হিসেবে দেখানো হয়েছে। ৩৪ মিনিট আগে</div>
+            <div class="box1"  style=" flex-grow:3;">আসছে বাজেট ২০২৩–২৪
+                আসছে বাজেট ২০২৩–২৪ নির্বাচনের বছরে খুশি করার প্রকল্প এবার এডিপিতে ৮২৫টি অননুমোদিত প্রকল্পের যে তালিকা রয়েছে তাতে অর্ধেকের বেশি প্রকল্পকে উচ্চ অগ্রাধিকার হিসেবে দেখানো হয়েছে। ৩৪ মিনিট আগে</div>
+            <div class="box1"  style=" flex-grow: 3;">আসছে বাজেট ২০২৩–২৪
+                আসছে বাজেট ২০২৩–২৪ নির্বাচনের বছরে খুশি করার প্রকল্প এবার এডিপিতে ৮২৫টি অননুমোদিত প্রকল্পের যে তালিকা রয়েছে তাতে অর্ধেকের বেশি প্রকল্পকে উচ্চ অগ্রাধিকার হিসেবে দেখানো হয়েছে। ৩৪ মিনিট আগে</div>
+            <!-- <div class="box1"  style="order: 2; flex-grow: 3;">box4</div> -->
+            
+    </div>
+</body>
+</html>

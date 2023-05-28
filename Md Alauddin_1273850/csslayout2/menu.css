@@ -5,13 +5,19 @@
     /* font-weight: ; */
     color: white;
     margin: 10px;
+   
 }
+
 .bannar h1 {
     display: inline;
+    position: relative;
+    left: 200px;
 
 }
 .bannar p {
     display: inline;
+    position: relative;
+    left: 200px;
 }
 nav {
     padding: 10px;
@@ -80,5 +86,6 @@ h4 {
     width: 900px;
     
 }
+
 
     
