@@ -62,7 +62,7 @@ header {
   padding: 2rem 1rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1;
   min-height: 10vh;
 }
 nav ul {
@@ -123,7 +123,7 @@ nav ul li:hover {
 
 
 /* About Section Start Here */
-#blog-about{
+.blog-about{
     background-color: #4c4c4c;
 }
 .cards{
@@ -160,17 +160,18 @@ nav ul li:hover {
 /* About Section End Here */
 
 /* projects section Start here */
-#projects{
+.projects{
     background-color: #000;
     margin-top: 20px;
     height: 300px;
 }
 .projects-lists{
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 .projects-list img{
     width: 300px;
-    margin-left: 20px;
 }
 .projects-img:hover{
     transform: scale(1.1);
@@ -223,7 +224,7 @@ nav ul li:hover {
 }
 /* Blog end here */
 /* Contact Me Start Here */
-#contact-section{
+.contact-section{
     background-color: #4c4c4c;
     min-height: 400px;
 }
