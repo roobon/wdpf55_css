@@ -17,11 +17,11 @@ footer{
     text-align: center;
 }
 .wrapper {
-    width: 950px;
+    width: 990px;
     margin: auto;
 }
 .container {
-    display: flex;    
+    display: flex;
     
 }
 .container > nav {
@@ -30,24 +30,33 @@ footer{
     flex-direction: column;
     padding: 20px;
     line-height: 30px;
-
 }
 nav a:hover{
     background-color: brown;
-    color: aliceblue;
-    
+    color: aliceblue; 
+    border: 2px ridge rgb(243, 241, 241);
 
 }
 nav a{
     padding: 10px;
     text-decoration: none;
     background-color: aquamarine;
-    border-bottom: 2px solid rgb(117, 113, 113);
+    border-bottom: 2px ridge rgb(117, 113, 113);
     font-size: larger;
 }
 .container > main {
     flex:70%;
     padding: 20px;
+    border: 1px dotted rgb(109, 31, 31);
     
+}
+h2.title {
+    background-color: rgb(112, 207, 245);
+    padding: 10px;
+}
+div.content {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
 }
 
