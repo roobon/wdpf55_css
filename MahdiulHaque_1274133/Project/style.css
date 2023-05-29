@@ -124,6 +124,7 @@ ul {
        margin: auto;
        color: antiquewhite;
        position: relative;
+       padding-right: 60px;
      }
       
      .content .par{
