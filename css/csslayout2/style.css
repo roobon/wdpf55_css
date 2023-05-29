@@ -12,8 +12,9 @@ footer{
     width: 950px;
     padding: 20px;
     margin:0 auto;
-    height: 50px;
+    height: 40px;
     background-color: aqua;
+    text-align: center;
 }
 .wrapper {
     width: 950px;
@@ -34,14 +35,15 @@ footer{
 nav a:hover{
     background-color: brown;
     color: aliceblue;
-    text-decoration: underline;
+    
 
 }
 nav a{
     padding: 10px;
     text-decoration: none;
     background-color: aquamarine;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid rgb(117, 113, 113);
+    font-size: larger;
 }
 .container > main {
     flex:70%;
