@@ -1,0 +1,67 @@
+/* head section */
+.head a{margin-right:20px;
+    text-decoration: none;
+    color: black;
+}
+.head{
+    display: flex;
+    justify-content: space-between;}
+/* middle item */
+.middle{
+    display: flex;
+    justify-content:space-between ;
+    width: 1200px;
+
+}
+.middle h1{font-size: 50px;}
+
+
+.middle div input{
+    background-color: rgb(199, 38, 199);
+    padding: .5rem;
+    border: none;
+    border-radius: 80px;
+    
+}
+.middle div input::placeholder{
+    color: #fff;
+}
+/* Item of company logo */
+.amazon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3px;
+   
+}
+.content{display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.beside{
+    margin-right: 20px;
+}
+.down-side input{
+    background-color:fuchsia;}
+    .down-side input::placeholder{
+        color: #fff;
+    }
+    footer{
+        clear: both;
+        background-color:rgba(0, 0, 139, 0.959) ;
+        color: white;
+        margin-top: 50px;
+      padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
