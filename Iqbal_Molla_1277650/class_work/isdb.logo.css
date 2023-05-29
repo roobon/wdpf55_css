@@ -1,0 +1,48 @@
+header {
+    width: 900px;
+    height: 150px;
+    background-color: aqua;
+   
+}
+header img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.main {
+    display: flex;
+}
+.menu {
+    width: 150px;
+    height: 300px;
+    border: 1px solid black;
+}
+.content {
+    width: 680px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 35px;
+    padding: 10px 10px;
+}
+/* .main,.menu {
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}
+.content {
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+} */
+/* nav {
+   margin-left: 300px;
+   width: 150px;
+   height: 250px;
+   border: 1px solid black;
+   padding: ;
+} */
+footer {
+    width: 900px;
+    height: 50px;
+    background-color: aqua;
+}
