@@ -5,5 +5,46 @@
 
 .main {
     width: 100%;
-    background: linear-gradient();
+    background: linear-gradient(to top, rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main img {
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+/* .menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+} */
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    /* list-style: none; */
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: larger;
+    /* transition: 0.4s ease-in-out; */
+}
+
+ul li a:hover {
+    color: orange;
 }
