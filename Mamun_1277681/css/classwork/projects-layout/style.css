@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+   background-color: black;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom:50px;
+   border-radius: 10px;
+
+   
+}
+.banner-content{
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+.banner-content h2{
+    font-size: 70px;
+    /* padding: 10px; */
+}
+/* .banner-img img{
+    max-width: 100%;
+    height: auto;
+} */
+.btn{
+    background-color: rgb(36, 128, 36);
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+/* menu button styles */
+
+.menu{
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    height: 135px;
+}
+.menu_btn1{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.menu_btn2, .menu_btn3{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 5px;
+    align-items: center;
+}
+.menu_container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    /* margin-right: 8%; */
+}
+.teams_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.teams{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    padding: 15px;
+    /* margin-left: 20px; */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.team{
+    display: flex;
+   
+    align-content: center;
+    align-items: center;
+}
+.team h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.team-content{
+    margin-top: 10px;
+}
+.team img{
+    width: 40%;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+hr{
+    border: 1px solid rgb(118, 118, 118);
+}

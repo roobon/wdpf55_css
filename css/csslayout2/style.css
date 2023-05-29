@@ -1,0 +1,62 @@
+/* * {
+    box-sizing: border-box;
+} */
+header {
+    width: 950px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    margin:0 auto;
+}
+footer{
+    width: 950px;
+    padding: 20px;
+    margin:0 auto;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+.wrapper {
+    width: 990px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    
+}
+.container > nav {
+    flex:30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 30px;
+}
+nav a:hover{
+    background-color: brown;
+    color: aliceblue; 
+    border: 2px ridge rgb(243, 241, 241);
+
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-bottom: 2px ridge rgb(117, 113, 113);
+    font-size: larger;
+}
+.container > main {
+    flex:70%;
+    padding: 20px;
+    border: 1px dotted rgb(109, 31, 31);
+    
+}
+h2.title {
+    background-color: rgb(112, 207, 245);
+    padding: 10px;
+}
+div.content {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+

@@ -1,0 +1,65 @@
+.header{
+    background-color: rgb(63, 63, 194);
+    width: 800px;
+    height: 130px;
+    color: aliceblue;
+    padding: 10px 10px 20px 40px; 
+}
+.nav-menu{
+    background-color: salmon;
+    height: 30px;
+    width: 825px;
+    padding: 5px 5px 5px 20px;
+    color: black ; 
+
+}
+.nav-menu,a:hover{
+    
+    color: aliceblue;
+}
+.menubar{
+    clear: both;
+    float: left;
+    border: 2px solid black;
+    width: 150px;
+    height: 230px;
+    margin-left: 50px;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 15px;
+    
+}
+  .menubar,li{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    
+}
+.box{
+    background-color: rgb(78, 78, 215);
+    color:  rgb(78, 78, 215 );
+}
+.content{
+    float: left;
+    border: 2px solid blue;
+    width: 600px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+   
+}
+h3{
+    border: 1px solid black;
+}
+.footer{
+    clear: both;
+    float: left;
+    background-color: rgb(70, 70, 204);
+    width: 850px;
+    height: 35px;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 0px 0px 0px;
+    border-radius: 15px;
+}
