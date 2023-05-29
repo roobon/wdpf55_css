@@ -19,7 +19,7 @@
      color: aliceblue;
 }
 .menu{
-     float: left;
+
      background-color: rgb(5, 5, 5);
      width: 160px;
      height: 270px;
@@ -30,10 +30,11 @@
      color: aliceblue;
      border: 2px solid blue;
 }
-.content{
-     text-align: justify;
+.main{
+     display: flex;
+     flex-wrap: wrap;
 }
-.h1,.h2,.h3{
+.h1{
      background-color:white;
      color: black;
 }
@@ -41,32 +42,16 @@
      background-color: red;
      color: aliceblue;
 }
-.h2:hover{
-          background-color: red;
-          color: aliceblue;
-}
-.h3:hover{
-     background-color: red;
-     color: aliceblue;
-}
-.div1,.div2,.div3,.div4{
-     /* display: flex; */
-     border: 1px solid blue;
-     margin-right: 10px;
-     margin-bottom: 10px;
-     padding: 5px 5px 40px 5px ; 
-     align-items: center;
-}
-.bd{
-     display: flex;
-     margin-right: 20px;
-    
-}
-.in{
-     display: flex;
-}
-.div1 {
+.content{
+     padding: 5px 5px;
+     border: 1px solid black;
      text-align: center;
+     height: 160px;
+     margin-left: 10px;
+     margin-top: 10px;
+}
+.team {
      display: flex;
-    
+     align-items: center;
+     flex-wrap: wrap;
 }
