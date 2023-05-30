@@ -1,43 +1,126 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container {
-    height: 109vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),url(1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.navigation{
+    height: 8vh;
     display: flex;
-    
+    align-items: center;
+    overflow-y: hidden;
+    /* background-color: aqua; */
 }
-  img {
-    height: 50px;
-    width: 50px;
-    margin: 25px 0 25px 175px;
+.navigation .logo{
+    width: 15%;
 }
-
-ul {
-float: left;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-ul li {
-
-
-}
-
-ul li a {
+.navigation .logo a{
+    font-size: 24px;
     text-decoration: none;
+    font-weight: 800;
+    margin: 0 0 0 30px;
+    color: orangered;
+}
+nav ul{
+    /* border: 2px solid red; */
+    margin: 120px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 30px;
+}
+nav ul li a{
+    font-size: large;
+    font-weight: 800;
     color: #fff;
-    font-family: Arial;
-    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: orangered;
+    background-color: aliceblue;
+}
+.srch{
+    margin-right: 5px;
+}
+.srch input{
+    border: 2px solid orangered;
+    outline: none;
+    padding: 1.2px;
+}
+.srch button{
+    border: 3px solid orangered;
+    background-color: orangered;
+    margin-left: -10px;
 }
 
-ul li a:hover {
-    color: #ff7200;
+section{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    margin: 100px 0 0 50px;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+section .text{
+    width: 60%;
+    /* background-color: #fff; */
+
+}
+section .text h1{
+    width: 350px;
+    font-size: 46px;
+    color: #fff;
+    word-spacing: 11.2px;
+}
+section .text p{
+    color: #fff;
+    margin-top: 20px;
+    line-height: 24px;
+}
+section .text button{
+    padding: 7px 45px;
+    border: none;
+    margin-top: 24px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #000;
+}
+.form h1{
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 2.5rem 1rem;
+
+}
+section .form{
+    background-color: rgba(0, 0, 0, .8);
+    width: 30%;
+    margin: 0 0 0 120px;
+    border-radius: 5px;
+}
+section .form input{
+    border-bottom: 1.2px solid red;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: black;
+    border: none;
+    color: #fff;
+}
+section .form input::placeholder{
+    color: #fff;
 }
