@@ -3,48 +3,41 @@
     padding: 0;
 }
 
-.main {
+.container {
+    height: 109vh;
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%), url(1.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),url(1.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    display: flex;
+    
 }
-.main img {
-    height: 70px;
-    width: 70px;
-    float: left;
+  img {
+    height: 50px;
+    width: 50px;
+    margin: 25px 0 25px 175px;
 }
-
-/* .menu {
-    width: 400px;
-    float: left;
-    height: 70px;
-} */
 
 ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 ul li {
-    /* list-style: none; */
-    margin-left: 150px;
-    margin-top: 40px;
-    font-size: 14px;
+
+
 }
 
 ul li a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-family: Arial;
-    font-weight: bold;
-    font-size: larger;
-    /* transition: 0.4s ease-in-out; */
+    font-weight: bolder;
 }
 
 ul li a:hover {
-    color: orange;
+    color: #ff7200;
 }
