@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box 1</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .container > .box1{
+            height: 100px;
+            padding: 20px;
+            margin: 5px;
+            background-color: aqua;
+        }
+        .container > .box2{
+            height: 50px;
+            padding: 20px;
+            margin: 5px;
+            background-color: rgb(75, 84, 84);
+        }
+        .container > .header{
+            height: 50px;
+            padding: 30px;
+            width: 100%;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Company Name</h1> 
+        </div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 3;" class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident veniam, commodi asperiores doloribus aliquid perspiciatis? </div>
+        <div style="flex-grow: 3" class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident veniam, commodi asperiores doloribus aliquid perspiciatis? </div>
+        <div style="flex-grow: 3" class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident veniam, commodi asperiores doloribus aliquid perspiciatis? </div> 
+        <div style="flex-grow: 3" class="box2">Lorem, ipsum dolor sit amet consectetur  </div>    
+    </div>
+    <div class="container">
+        <div class="box1" style="flex-grow: 1;">Box1</div>
+        <div class="box1" style="flex-shrink: 0;">Box2</div>
+        <div style="flex-grow: 5" class="box1">Box3</div>
+        <div style="flex-grow: 2" class="box1">Box4</div>    
+    </div>
+
+</body>
+</html>

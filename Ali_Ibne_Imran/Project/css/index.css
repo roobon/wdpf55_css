@@ -55,3 +55,19 @@ body{
     text-decoration: none;
     /* border: 1px solid black; */
 }
+
+footer{
+    background-color: aqua;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    /* position: relative;
+    bottom: 0px; */
+}
+h1 {
+    border: 1px solid slategray;
+    border-radius: 5px;
+    background-color: oldlace;
+    padding: 10px;
+    text-align: centerg;
+}

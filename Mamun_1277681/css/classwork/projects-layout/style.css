@@ -109,6 +109,9 @@
 .team-content{
     margin-top: 10px;
 }
+.team img{
+    width: 40%;
+}
 .bottom{
     background-color: black;
     color: white;

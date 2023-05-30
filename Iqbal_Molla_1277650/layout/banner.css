@@ -5,6 +5,13 @@
      font-size: 30px;
      margin-bottom: 50px;
 }
+.h2{
+     background-color:white;
+     color: black;
+}
+p {
+     font-size: 30px;
+}
 .btn{
      background-color:rgb(98, 173, 98);
      right: 50px;
@@ -19,49 +26,44 @@
      color: aliceblue;
 }
 .menu{
-     float: left;
+
      background-color: rgb(5, 5, 5);
-     width: 160px;
+     width: 150px;
      height: 270px;
-     margin-left: 50PX;
+     margin-left: 20PX;
      margin-right: 20px;
-     padding: 15px 5px 5px 15px;
+     padding: 15px 5px 5px 10px;
      text-align: center;
      color: aliceblue;
      border: 2px solid blue;
+     border-radius: 10px;
 }
-.content{
-     text-align: justify;
-}
-.h1,.h2,.h3{
-     background-color:white;
-     color: black;
+.main{
+     display: flex;
+     flex-wrap: wrap;
+     
 }
 .h1:hover{
      background-color: red;
      color: aliceblue;
+     border-radius: 10px;
+     transition: 0.3s all;
 }
-.h2:hover{
-          background-color: red;
-          color: aliceblue;
+.content{
+     padding: 5px 5px;
+     border: 1px solid black;
+     text-align: center;
+     /* width: 300px; */
+     height: 160px;
+     margin-left: 10px;
+     margin-top: 10px;
 }
-.h3:hover{
-     background-color: red;
-     color: aliceblue;
-}
-.div1,.div2,.div3,.div4{
+.team {
      display: flex;
-     border: 1px solid blue;
-     margin-right: 10px;
-     margin-bottom: 10px;
-     padding: 5px 5px 40px 5px ; 
      align-items: center;
+     flex-wrap: wrap;
 }
-.bd{
-     display: flex;
-     margin-right: 20px;
-    
-}
-.in{
-     display: flex;
+.molla {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
 }
