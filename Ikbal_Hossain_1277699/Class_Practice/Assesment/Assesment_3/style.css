@@ -1,0 +1,49 @@
+.heading {
+    height: 120px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px;
+}
+ .heading h1 {
+    display: inline;
+ }
+.nav a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+}
+.nav {
+    margin: 20px 0px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.row1{
+    border: 1px solid gray;
+    height: 300px;
+    flex: 20%;
+
+}
+.row2{
+    flex: 80%;
+    border: 1px solid gray;
+    height: 300px;
+    margin-left: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: dodgerblue;
+    text-align: justify;
+}
