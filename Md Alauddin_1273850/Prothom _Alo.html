@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Content Flex Box</title>
+    <title>Prothom Alo</title>
+    <!-- Content Flex Box -->
     <style>
         .header {
             border: 1px solid rgb(219, 217, 216);
             padding: 20px;
             margin: 5px;
             width: 100%;
-            height: 200px;
+            height: 100px;
             text-align: center;
         }
         .img1 {
@@ -24,13 +25,57 @@
             position: relative;
             right: 70px;
             bottom: 32px;
-            /* position: relative;
-            left: 550px;
-            bottom: 30px; */
+           
         }
         .button {
             width: 80px;
             height: 30px;
+        }
+        .anchor {
+            position: relative;
+            right: 25px;
+            bottom: 25px;
+        }
+        .right {
+            position: absolute;
+            right: 80px;
+            bottom: 480px;
+        }
+        .menu {
+            padding: 20px;
+            border: 1px solid rgb(204, 199, 199);
+            width: 100%;
+            text-align: center;
+            word-spacing: 10px;
+            
+        }
+        .menubar{
+            height: 45px;
+            width: 35px;
+            position: relative;
+            
+        }
+        .search {
+            position: relative;
+            left: 50px;
+            bottom: 35px;
+        }
+        .left {
+            
+            position: absolute;
+            bottom: 490px;
+        }
+        .date {
+            font-size: 14px;
+            position: relative;
+            left: 40px;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
         }
           
         .flex-row1, .flex-row2, .flex-row3 {
@@ -43,7 +88,7 @@
             padding: 20px;
             margin: 5px;
             height: 350px;
-            width: 300px;
+            width: 250px;
 
         }
     
@@ -52,7 +97,8 @@
             padding: 20px;
             margin: 5px;
             height: 350px;
-            width: 300px;
+            width: 250px;
+            overflow: hidden;
 
         }
     
@@ -61,12 +107,12 @@
             padding: 20px;
             margin: 5px;
             height: 350px;
-            width: 300px;
+            width: 250px;
 
         }
         img {
             height: 350px;
-            width: 300px;
+            width: 250px;
         }
       
         .img {
@@ -78,7 +124,11 @@
       .my-div{
         display: flex;
       }
-        
+      .end {
+        clear: both;
+        display: flex;
+      }
+       
     </style>
 </head>
 <body>
@@ -87,18 +137,43 @@
             <div>
                 <img class="img1" src="download.png" alt="">
             </div>
-            <div>
+            <div  class="right">
                 <div class="login">
                     <input class="button" type="button" value="Login">
                 </div>
                 <div>
                     <img class="notification-bell" src="notification-bell.svg" alt="">
                 </div>
+                <div class="anchor">
+                    <a href="https://en.prothomalo.com/">English</a> Edition
+                </div>
+            </div>
+            <div class="left">
                 <div>
-                    <a href="https://en.prothomalo.com/">English</a>
+                    <img class="menubar" src="Images1.jpg" alt="">
+                </div>
+                <div>
+                    <input class="search" type="button" value="Search">
+                </div>
+                <div class="date">
+                    সোমবার, ২৯ মে ২০২৩
                 </div>
             </div>
         </header>
+        <nav class="menu">
+            <a href="">সর্বশেষ</a>
+            <a href="">বিশেষ সংবাদ</a>
+            <a href="">রাজনীতি</a>
+            <a href="">অপরাধ</a>
+            <a href="">বাংলাদেশ</a>
+            <a href="">বিশ্ব</a>
+            <a href="">বাণিজ্য</a>
+            <a href="">মতামত</a>
+            <a href="">খেলা</a>
+            <a href="">বিনোদন</a>
+            <a href="">চাকরি</a>
+            <a href="">জীবনযাপন</a>
+        </nav>
         <div class="box1">
             <h1>বৈশ্বিক প্রতিবেদন দেশে ৩৮ লাখ ৭৮ হাজার শিশু খর্বকায়</h1>
             <p>অপুষ্টির শিকার এসব শিশুর সংখ্যা ৩৮ লাখ ৭৮ হাজার। এদের উচ্চতা বয়সের তুলনায় কম। দেশে এমন শিশুর সংখ্যা কমে এলেও এখনো
@@ -153,6 +228,7 @@
             <h2 class="box-header">
                 ইতিহাসের এই দিনে বেলুনে ভূপৃষ্ঠ থেকে সাড়ে
             </h2>
+            
             <img class="img" src="bbb.webp" alt="">
            </div>
         </div>
@@ -174,6 +250,31 @@
         <div class="box1">
             <img  src="aaaa.webp" alt=""> 
         </div>
+    </div>
+    <div><br><br><hr>
+        <footer>
+            <div class="end">
+                <br><img style="height: 60px; width: 50px; " src="icon.png" alt="">
+                <h3>prothomalo.com</h3>
+            </div>
+            <div class="flex1">
+                <div>
+                    <p>গোলটেবিল</p>
+                    <p>প্রথমা</p>
+                    <a href="https://en.prothomalo.com/">English</a> Edition
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+        </footer>
     </div>
     
 </body>
