@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nowrap{
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+
+        .normal {
+            white-space: normal;
+        }
+
+        .pre {
+            white-space: pre;
+            overflow-x: auto;
+          
+        }
+
+        .pre-div{
+            width: 300px;
+            border: 3px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+  <div class="pre-div">
+    <h4>No wrap</h4>
+    <p class="nowrap">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi est unde ipsum labore, quam saepe? Eaque nulla facere magnam, aut sit culpa quas neque porro illum vel minima dolores. 
+    </p>
+  </div>
+
+
+  <div class="pre-div">
+    
+    <h4>Normal</h4>
+    <p class="normal">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi est unde ipsum labore, quam saepe? Eaque nulla facere magnam, aut sit culpa quas neque porro illum vel minima dolores. 
+    </p>
+  </div>
+
+<div class="pre-div">
+    
+    <h4>pre</h4>
+    <p class="pre">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi est unde ipsum labore, quam saepe? <br> Eaque nulla facere magnam, aut sit culpa quas neque porro illum vel minima dolores. 
+    </p>
+</div>
+</body>
+</html>

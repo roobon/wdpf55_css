@@ -1,0 +1,92 @@
+header {
+    background-color: rgb(24, 110, 238);
+    width: 100%;
+    height: 150px;
+}
+
+header img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+
+.menu-box {
+    border: 2px solid gray;
+    padding: 10px;
+
+}
+
+.menu-box span:hover {
+    background-color: rgb(24, 110, 238);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-box{
+    margin-top: 10px;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.search-box span {
+    display: block;
+    background-color: rgb(24, 110, 238); 
+    padding: 5px;
+}
+.search {
+    border: 2px solid gray;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.right-menu {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.right-menu h3 {
+    background-color: rgba(128, 128, 128, 0.459);
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.left-menu {
+   
+}
+
+footer {
+    background-color: rgb(24, 110, 238); 
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.span-1 {
+    background-color:rgb(24, 110, 238); 
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
