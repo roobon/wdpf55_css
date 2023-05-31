@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 40px;
+    margin: 20px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 70px;
+   
+}
+nav ul li{
+    list-style-type: none;
+   font-size: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.serch{
+    height:40px;
+}
+.serch input{
+    width: 80px;
+    margin: 25px;
+
+}
+.card img{
+    height: 30px;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+.pro{
+    background-color: black;
+    color: #fff;
+    height: 409px;
+    margin-top: 10px;
+}
+.pro h1{
+    text-align: center;
+    padding: 8px;
+   
+}
+.pro p{
+    text-align: center;
+   
+}
+.pro img{
+   margin-left:120px;
+}
+.wonderful{
+    height: 500px;
+   background-color: #fffefe;
+    margin-top: 10px;
+}
+.wonderful h1{
+    text-align: center;
+}
+.wonderful p{
+    text-align: center;
+}
+.wonderful img{
+    margin-left: 320px;
+    position: ;
+    height: 450px;
+    
+}
+.ipadpro{
+   background-image: url(../project/Image/ipade\ pro.png);
+   height: 550px;
+   text-align: justify;
+   margin-top: 10px;
+   color: #fff;
+   padding: 60px;
+}
+.ipadpro h1{
+    font-weight:bolder ;
+}
+.mobile{
+    display: flex;
+    height: 450px;
+}
+.mobile .m2{
+   border: 8px solid #fff
+   ;
+   background-color: black;
+   width: 52%;
+   text-align: center;
+   padding: 10px;
+   
+    
+}
+.m2 h1{
+    color: #fff;
+}
+.m2 p{
+    color: #fff;
+}
+.m1{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.m1 h1 p{
+    margin: 10px;
+    font-weight:bolder;
+}
+
+
+
