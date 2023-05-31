@@ -5,8 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .form{
+            width: 250px;
+            height: 380px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+            position: absolute;
+            top: -20px;
+            left: 870px;
+            border-radius: 10px;
+            padding: 50px;
+            
+            text-align: center;
+        }
+        .form h2{
+            width: 220px;
+            font-family: sans-serif;
+            text-align: center;
+            color: orangered;
+            font-size: 22px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            margin: 2px;
+            padding: 8px;
+        }
+
+        .form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid orange;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: antiquewhite;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+        .form input:focus{
+            outline: none;
+        }
+        ::placeholder{
+            color: antiquewhite;
+            font-family: Arial;
+        }
+        .btnn{
+            width: 240px;
+            height: 40px;
+            background: orangered;
+            margin-top: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: antiquewhite;
+
+        }
+        .btnn:hover{
+            background: antiquewhite;
+            color: orangered;
+        }
+
+        .btnn a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .form .link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .form .link a{
+            text-decoration: none;
+            color: orangered;
+        }
+        .container {
+            color: aqua;
+        }
+        
+        body{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
+    <h1>You can connect with us:</h1>
+        <h2>Please login to connect** <h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem, sint,<br> accusamus dolor, rem iure fugiat quibusdam, repellendus aliquam earum<br> tempore libero quis. Deleniti, iusto. Magni eveniet aspernatur suscipit ad?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quas! Saepe<br> doloremque ad ratione facere laudantium nemo corporis tempora praesentium.<br> Vitae repudiandae, libero laudantium sapiente enim culpa consectetur commodi <br>nisi.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quas! Saepe<br> doloremque ad ratione facere laudantium nemo corporis tempora praesentium.<br> Vitae repudiandae, libero laudantium sapiente enim culpa consectetur commodi <br>nisi.</p>
+
+            
+            
+    <div class="container">
+        
+        <div class="form">
+            <h2>Log in Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="" placeholder="Enter Password Here">
+            <button class="btnn"><a href="#">Log in</a></button>
     
+            <p class="link">Don't have an account<br>
+            <a href="#">Sign up  </a> here</p>
+            
+    
+        </div>
+    </div>
+    
+       
 </body>
 </html>
