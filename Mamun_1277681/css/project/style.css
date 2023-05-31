@@ -18,8 +18,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 250px;
+    
 }
 .header-img{
     margin-left: 10px;
@@ -32,7 +32,7 @@ body{
 }
 .header-logo img{
     width: 10%;
-    padding-left: 100px;
+    padding-left: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -164,4 +164,11 @@ hr{
         background-color: tomato;
         grid-template-columns: repeat(2, 1fr);
     }
+  }
+  footer{
+    background-color: #562eff;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
   }
