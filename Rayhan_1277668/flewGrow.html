@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .box1 {
+            height: 200px;
+            /* width: 200px; */
+            background-color: aquamarine;
+            margin: 5px;
+        }
+       #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="flex-grow: 2;" class="box1"></div>
+        <div id="header" style="flex-grow: 8;" class="box1">
+            <div>
+                <h1>My company Logo</h1>
+            </div>
+        </div>
+        <div style="flex-grow: 2;" class="box1"></div>
+       
+    </div>
+
+    <div class="container">
+        <div style="flex-grow: 1;" class="box1"></div>
+        <div style="flex-grow: 9;" class="box1"></div>
+        <div style="flex-grow: 2;" class="box1"></div>
+    </div>
+</body>
+</html>

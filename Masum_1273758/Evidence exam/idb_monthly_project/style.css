@@ -5,7 +5,8 @@
 }
 .head{
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 /* middle item */
 .middle{
     display: flex;
@@ -13,14 +14,24 @@
     width: 1200px;
 
 }
+
+.middle-left {
+    width: 50%;
+}
+.middle-right {
+    width: 50%;
+}
+
 .middle h1{font-size: 50px;}
 
 
-.middle div input{
+.middle div button{
     background-color: rgb(199, 38, 199);
     padding: .5rem;
     border: none;
     border-radius: 80px;
+    color: #fff;
+    width: 25%;
     
 }
 .middle div input::placeholder{
@@ -31,22 +42,29 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 3px;
+ 
    
 }
 .content{display: flex;
     justify-content: space-around;
     align-items: center;
 
+
 }
 .beside{
     margin-right: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
 }
-.down-side input{
-    background-color:fuchsia;}
-    .down-side input::placeholder{
-        color: #fff;
-    }
+.down-side button{
+    background-color:fuchsia;
+padding:5px;
+width:25%;
+color: #fff;
+}
+    
+        
+    
     footer{
         clear: both;
         background-color:rgba(0, 0, 139, 0.959) ;
@@ -55,7 +73,64 @@
       padding-bottom: 20px;
         text-align: center;
         padding-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
+    .col-1{
+        display:flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+     
+      
+        
+        
+    }
+    .col-2{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+     
+        
+        
+    }
+    .col-3{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+     
+    }
+    .main{
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+    .cemera{
+        margin-right: 200px;
+    }
+    .computer{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+    }
+    .development{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+    }
+    body{
+        margin-left: 80px;
+        margin-right:80px ;
+        overflow-x: hidden;
+    }
+    .border-menu{
+        
+    }
+    
 
 
 
