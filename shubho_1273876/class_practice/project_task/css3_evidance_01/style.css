@@ -59,10 +59,9 @@ nav ul li a.active {
 }
 #sidebar {
   background: #fff;
-  height: 400px;
+  height: 100%;
   padding: 0px;
-  position: fixed;
-  width: 300px;
+  width: 30%;
 }
 ul.left-menu {
   margin: 0;
@@ -70,6 +69,7 @@ ul.left-menu {
 }
 ul.left-menu li {
   list-style: none;
+  width: 280px;
 }
 .left-menu li a {
   padding: 10px 10px;
@@ -156,7 +156,7 @@ input[type="button"] {
 #content-wrapper {
   background: #eee;
   padding-left: 300px;
-  width: 100%;
+  width: 70%;
 }
 
 #content {
