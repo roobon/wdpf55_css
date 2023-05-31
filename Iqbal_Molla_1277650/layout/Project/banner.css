@@ -17,6 +17,9 @@
      font-size: 30px;
      margin-bottom: 50px;
 }
+h1,p {
+     margin-left: 25px;
+}
 .h2{
      background-color:white;
      color: black;
@@ -25,17 +28,19 @@ p {
      font-size: 30px;
 }
 .btn{
-     background-color:rgb(98, 173, 98);
+     background-color:salmon;
      right: 50px;
      padding: 5px 5px 5px 5px;
      margin-left: 40px;
      margin-bottom: 10px;
-     color:white;
-    
+     color: black;
+    transition: 0.3s ease;
+    border-radius: 10px;
 }
 .btn:hover{
-     background-color: rgb(74, 74, 179);
+     background-color: rgb(43, 43, 211);
      color: aliceblue;
+     
 }
 .menu{
 
