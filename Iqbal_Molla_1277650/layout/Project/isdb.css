@@ -4,6 +4,8 @@
      background-color: red;
      padding: 10px;
      text-align: center;
+     text-decoration: none;
+     font-size: 24px;
 }
 .nav-bar a {
      color: white;
@@ -11,7 +13,7 @@
      font-size: 24px;
 }
 .top-heading{
-     background-image:url(image/blue\ banner.jpg);
+     background-image:url(images/blue\ banner.jpg);
      height: 350px;
      text-align: center;
      padding-top: 20px;
@@ -21,6 +23,7 @@
      border-radius: 20px;
      letter-spacing: 1.2rem;
 }
+
 .logo{
      position: absolute;
      width: 100px;
@@ -61,16 +64,25 @@
 .s9{
      color: indianred;
 }
-.nav-menu{
+.nav-menu {
      background-color: rgba(25, 187, 241, 0.979);
      font-size: 24px;
      height: 30px;
      text-align: center;
      padding: 10px;
      margin: 5px;
+     transition: 0.3s all;
+     border-radius: 5px;
+}
+.nav-menu a{
+     transition: 0.3s all;
+     border-radius: 5px;
+     color: rgb(65, 65, 65);
+     background-color: #f6f6f6;
+     text-decoration: none;
 }
 .nav-menu a:hover{
-     background-color: chartreuse;
+     background-color: salmon;
      color: black;
 }
 section{
