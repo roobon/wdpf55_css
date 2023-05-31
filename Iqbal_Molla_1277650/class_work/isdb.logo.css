@@ -1,5 +1,11 @@
-.full-content {
+/* .full-content {
   margin-left: 200px;
+    display: block;
+    margin: 0 auto;
+} */
+#full{
+    display: flex;
+    justify-content: center;
 }
 header {
     width: 900px;

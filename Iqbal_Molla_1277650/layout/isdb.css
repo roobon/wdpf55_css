@@ -5,7 +5,11 @@
      padding: 10px;
      text-align: center;
 }
-
+.nav-bar a {
+     color: white;
+     text-decoration: none;
+     font-size: 24px;
+}
 .top-heading{
      background-image:url(image/blue\ banner.jpg);
      height: 350px;
@@ -19,10 +23,10 @@
 }
 .logo{
      position: absolute;
-     width: 50px;
-     height: 50px;
-     left: 50px;
-     top: 50px;
+     width: 100px;
+     height: 100px;
+     left: 200px;
+     top: 150px;
 }
 .search{
      position: absolute;
