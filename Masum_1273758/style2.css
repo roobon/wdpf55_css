@@ -1,0 +1,13 @@
+#header{
+    width:100%;
+    min-width: 550px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:#d3c89b;
+}
+.sidebar{
+    width: 33%;
+    padding: 10px;
+    float: left;
+    background-color:#d3c89b;
+}

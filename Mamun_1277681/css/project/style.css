@@ -2,9 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* utilities */
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #562eff;
+    color: white;
+}
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 250px;
+    
+}
+.header-img{
+    margin-left: 10px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.header-logo img{
+    width: 10%;
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 main{
     display: flex;
@@ -87,12 +117,28 @@ hr{
  /*--------------------
   courses styles start
   ------------------- */
+
+  .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+  }
+  .course{
+    width: 225px;
+    box-shadow: 0px 0px 10px rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 15px;
+  }
   .course .course-banner img{
-    width: 224px;
+    width: 225px;
     height: 104px;
+  }
+  .course-author a{
+    text-decoration: none;
   }
   .course-info{
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   .filled{
@@ -102,7 +148,27 @@ hr{
     color: #e6e6e6;
   }
   .course-time{
+    height: 20px;
+    background-color: rgb(255, 196, 214);
+    color: red;
     display: flex;
-   
+    border-radius: 15px;
+    padding: 5px;
     align-items: center;
+  }
+  /* media quireies */
+
+  /* mobile device */
+  @media screen and(max-width:688px) {
+    .players, blogs, courses{
+        background-color: tomato;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  footer{
+    background-color: #562eff;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
   }
