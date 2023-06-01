@@ -1,0 +1,17 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+header{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+}
