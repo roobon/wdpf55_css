@@ -1,52 +1,188 @@
- header{
-    background-color: white;
-    background-size: cover;
-    text-align: center;
-    padding: 10px 0 10px ;
-    width: 250vh;
-    height: 50px;
-    margin-bottom:50px;}
-
-    header a:hover{
-        color: tomato;
-    }
-    
-
- .logo{
-    text-align: left;
-    padding: 0 0 40px  40px;}
-
- header a{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+}
+header .logo{
+    height: 6vh;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+nav a{
+    color: #000;
+    margin: 0 20px;
+    font-size: 20px;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px;}
-
+}
  .banner{
-    background-image: url("Image/image\ 11.jpg");
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%) ,url("Image/image\ 11.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 400px;
     width: 100%;
-    background-repeat: no-repeat;
     color: #fff;
     text-align: center;
-    margin-bottom: 50px; }
-
-.container{
     display: flex;
-    text-align:justify;
-    column-gap: 20px;
-}
-
-.nav{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 200px;
-}
-
-.content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
     margin-bottom: 50px;
-    clear:both
 }
+.banner h1{
+    margin-bottom: 15px;
+}
+.banner h4{
+    margin-bottom: 25px;
+}
+.div1{
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 30px 0;
+} 
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+.container>div{
+    width: 32%;
+    height: 640px;
+    border-radius: 5px;
+}
+.container>div img{
+    width: 100%;
+    height: 40%;
+}
+.container>div h2{
+    margin: 8px 0;
+    padding: 1rem;
+}
+.container>div p{
+    padding: 1rem;
+    text-align: justify;
+}
+.content{
+    margin-top: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.content .text{
+    width:50% ;
+}
+.content .text h2{
+    margin: 8px 0;
+    padding: .7rem 0;
+}
+.content .text p{
+    width: 90%;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.content img{
+    width: 50%;
+}
+
+.container_n{
+    height: 560px;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+.container_n img{
+    width: 100%;
+    height: 80%;    
+}
+.container_n>div{
+    width: 32%;
+}
+.container_n>div h2{
+    width: 80%;
+}
+
+.container2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 120px;
+    
+}
+.content2 .text2{
+    width:50% ;
+}
+.container2 img{
+    width:50% ;
+}
+.button{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: .8px solid #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: .8px solid #fff;
+    color: white;
+}
+.container3 .width{
+    width: 90%;
+}
+.button2{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: .8px solid #fff;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn99{
+    display: block;
+    background-color: #000;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    transition: .2s ease-in;
+    margin: 90px auto;
+}
+.btn99:hover{
+    opacity: 0.7;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
 
 
