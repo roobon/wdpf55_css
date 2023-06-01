@@ -85,3 +85,18 @@ h2{
     color: green;
     text-align: center;
 }
+
+.foot{
+    
+    background-color: green;
+    float:left;
+    display: block;
+    color: rgb(244, 235, 235);
+    text-align: center;
+    padding: 8px 17px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 50%;
+    margin-top: 5%;
+    width: 100%;
+}
