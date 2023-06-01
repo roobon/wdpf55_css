@@ -36,7 +36,7 @@ p{
 }
 .nav_menu a:hover{
     background-color: white;
-    color: green;
+    color: rgb(128, 4, 0);
 }
 .search{
     width: 330px;
