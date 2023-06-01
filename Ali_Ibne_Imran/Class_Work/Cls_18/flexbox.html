@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: gray;
+            height: 50px;
+            padding: 30px;
+            text-align: center;
+        }
+        img{
+            width: 200px;
+            height: 50px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .container>.box{
+            /* border: 1px solid black; */
+            padding: 20px;
+            margin: 5px;
+            height: 150px;
+            background-color: gray;
+        }
+        footer{
+            background-color: gray;
+            height: 50px;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href=""><img src="Instagram.svg" alt=""></a>
+    </header>
+    <div class="container">
+        <div style="flex-grow: 2;" class="box">1</div>
+        <div style="flex-grow: 8;"class="box">2</div>
+        <div style="flex-grow: 2;" class="box">3</div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 2;" class="box">1</div>
+        <div style="flex-grow: 2;" class="box">1</div>
+        <div style="flex-grow: 2;" class="box">1</div>
+        <div style="flex-grow: 2;" class="box">1</div>
+        <div style="flex-grow: 2;" class="box">1</div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 6;" class="box">1</div>
+        <div style="flex-grow: 6;" class="box">1</div>
+    </div>
+    <div class="container">
+        <div style="flex-grow: 4;" class="box">1</div>
+        <div style="flex-grow: 4;" class="box">1</div>
+        <div style="flex-grow: 4;" class="box">1</div>
+    </div>
+    <footer>
+        <h1>Brick Company</h1>
+    </footer>
+</body>
+</html>

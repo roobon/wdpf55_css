@@ -1,0 +1,90 @@
+.bannar {
+    background-color: rgb(5, 132, 182);
+    padding: 20px;
+    height: 100px;
+    /* font-weight: ; */
+    color: white;
+    margin: 10px;
+   
+}
+
+.bannar h1 {
+    display: inline;
+    position: relative;
+    left: 200px;
+}
+.bannar p {
+    display: inline;
+    position: relative;
+    left: 200px;
+}
+nav {
+    padding: 10px;
+}
+ a {
+    text-decoration: none;
+
+}
+nav a:hover { 
+    background-color: rgb(85, 85, 243);
+    padding: 10px;
+    color: #ffff;
+
+}
+.mid1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.col-1 {
+    width: 250px;
+    border: 1px ridge rgb(156, 155, 155);
+    padding: 10px;
+}
+h4 {
+    background-color: rgb(40, 42, 155);
+    padding: 10px;
+    /* width: 250px; */
+    color: aliceblue;
+
+    
+}
+.box-3 {
+    border: 1px ridge rgb(155, 155, 156);
+    padding: 10px;
+
+    /* width: 270px; */
+}
+.title {
+    border: 1px solid rgb(155, 155, 156);
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    
+}
+.footer {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(40, 42, 155);
+    color: antiquewhite;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 100px;
+}
+.top-menu-bar {
+    margin-left: 100px;
+}
+.col-2 {
+    border: 1px solid rgb(155, 155, 156);
+    padding: 10px;
+    width: 900px;
+    
+}
+
+
+    

@@ -8,7 +8,7 @@
     background-color: aquamarine;
     text-align: center;
     height: 130px;
-    padding: 20px;
+    padding: 40px;
     background-image: url(69b6a9160020091.Y3JvcCwyNzg5LDIxODIsMCw0MzU.png);
     background-repeat: no-repeat;
 
@@ -18,14 +18,14 @@
 }
 .nav-menu{
     background-color: blue;
-    height: 20px;
-    padding: 20px;
+    height: 40px;
+    padding: 40px;
     text-align: center;
     
 }
  .nav-menu a {
    
-    padding: 10px;
+    padding: 15px;
     color: aliceblue;
     text-decoration: none;
     background-color: green;
@@ -68,7 +68,4 @@
     left: 50px;
     top: 50px;
   }
-   .search input {
-    padding: 5px
-    border-radius: 5px;
-   }
+   

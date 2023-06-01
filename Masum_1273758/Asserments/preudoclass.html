@@ -19,13 +19,23 @@
         a:active{
             color: purple;
         }
-        p:hover{
+        /* p:hover{
             background-color: brown;
-        }
+        } */
         h1{
             width: 100%;
             height: 50px;
         }
+        .part1{
+            display: none;
+        }
+        div:hover .part1{
+            display: block;
+            color: cornflowerblue;
+            background-color: coral;
+        }
+
+        
         
     </style>
 </head>
@@ -36,8 +46,10 @@
    <a href="preudoclass.html">current page</a>
    <h1><p class="h1">This is a paragaraph</p></h1>
 
-   <div><p>Bangladesh is a beautiful contary</p>
-        <p>Banladesh is a beautiful contry</p>
+<div><p>Old is gold</p>
+    <p class="part1">This is hidden message</p>
+
 </div>
+
 </body>
 </html>

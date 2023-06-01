@@ -1,0 +1,181 @@
+/* head section */
+.head a{margin-right:20px;
+    text-decoration: none;
+    color: black;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+/* middle item */
+.middle{
+    display: flex;
+    justify-content:space-between ;
+    width: 1200px;
+
+}
+
+.middle-left {
+    width: 50%;
+}
+.middle-right {
+    width: 50%;
+}
+
+.middle h1{font-size: 50px;}
+
+
+.middle div button{
+    background-color: rgb(199, 38, 199);
+    padding: .5rem;
+    border: none;
+    border-radius: 80px;
+    color: #fff;
+    width: 25%;
+    
+}
+.middle div input::placeholder{
+    color: #fff;
+}
+/* Item of company logo */
+.amazon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
+ 
+   
+}
+.content{display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.beside{
+    margin-right: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.down-side button{
+    background-color:fuchsia;
+padding:5px;
+width:25%;
+color: #fff;
+}
+    
+        
+    
+    footer{
+        clear: both;
+        background-color:rgba(0, 0, 139, 0.959) ;
+        color: white;
+        margin-top: 50px;
+      padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .col-1{
+        display:flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+        margin-bottom: 10px;
+     
+      
+        
+        
+    }
+    .col-2{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+        margin-bottom: 10px;
+     
+        
+        
+    }
+    .col-3{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+        margin-bottom: 10px;
+
+     
+    }
+    .main{
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+    .cemera{
+        margin-right: 200px;
+    }
+    .computer{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+        margin-bottom: 10px;
+    }
+    .development{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 45px;
+        margin-bottom:10px;
+    }
+    body{
+        margin-left: 80px;
+        margin-right:80px ;
+        overflow-x: hidden;
+    }
+    .border-menu{
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    /* Sing up Email fomr */
+     .sing-up{
+        background: url("images/form1.jpeg");
+       
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color:ivory;
+     background-position: cover; 
+     height: 100vh;
+     display: flex;
+     justify-content: end;
+     
+
+    }
+
+
+    .sing-up  input:hover{
+        background-color:olivedrab;
+        
+    }
+    .sing-up > form{
+        border: 2px solid black;
+        padding: 10px;
+        width: 40%;
+        text-align: center;
+        color: black;
+
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+

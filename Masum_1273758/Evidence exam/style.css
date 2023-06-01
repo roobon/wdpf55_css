@@ -1,0 +1,80 @@
+/* heading start */
+.body{
+    margin:0%;
+}
+
+
+.banner{
+    height: 115px; 
+    background-color: rgb(23, 126, 190);
+    color:black;
+    padding: 15px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+small{
+    font-size: 15px;
+    display: inline;
+}
+
+    
+.banner h1{
+    display: inline;
+    font-size: 35px;
+}
+nav{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+
+}
+.top-menu a:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px;
+}
+.top-menu{
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mid-a{
+    margin-left:15px;
+    margin-right: 15px;
+}
+.col-1{
+    width: 250px;
+    border: 2px solid grey;
+}
+.search-box{
+    border: 2px solid blanchedalmond;
+    margin-top: 20px;
+    
+}
+.search-box ,h4{
+    background-color:lightslategray;
+    padding: 2.5px;
+    margin-top:2.5px
+    
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+.col-2{
+    border: 2px solid black;
+    width: 300px;
+  padding: 10px;
+}
+.h3{
+    border: 1px solid black;
+    background-color: darkslategrey;
+}
+.input{
+    margin-top: 5px;
+}
+
+

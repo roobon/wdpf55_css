@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: skyblue;
+    width: 100%;
+    height: 100px;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.nav-top a{
+    height: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+}
+.nav-top a:hover{
+    background-color: skyblue;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+.left-side{
+    margin: 50px;
+}
+.nav-left{
+    font-size: 20px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 290px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-left a{
+    padding: 5px;
+}
+
+.nav-left-down{
+    font-size: 20px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 150px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-left-down-sub{
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.nav-left-down-sub input{
+    display: flex;
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+    margin: 50px;
+}
+.content h2{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.content p{
+    text-align:justify;
+}
+.content{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 5px;
+}
+footer{
+    background-color: skyblue;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+}
