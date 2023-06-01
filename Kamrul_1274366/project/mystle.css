@@ -3,9 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .logo img{
     height: 40px;
-    margin: 20px;
+    margin: 15px;
 }
 .menu ul{
     display: flex;
@@ -23,6 +24,7 @@ nav ul li a{
     text-decoration: none;
     padding: 10px;
     margin: 15px;
+    font-size: 15px;
 }
 nav ul li a:hover{
     color: blue;
@@ -42,12 +44,15 @@ nav ul li a:hover{
 .header{
     display: flex;
     background-color: rgb(13, 13, 13);
+    height: 70px;
+    position: fixed;
+
 }
 .pro{
     background-color: black;
     color: #fff;
     height: 409px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .pro h1{
     text-align: center;
@@ -74,34 +79,42 @@ nav ul li a:hover{
 }
 .wonderful img{
     margin-left: 320px;
-    position: ;
+ 
     height: 450px;
     
 }
 .ipadpro{
-   background-image: url(../project/Image/ipade\ pro.png);
+   background-image: url(Image/ipade\ pro.png);
    height: 550px;
    text-align: justify;
    margin-top: 10px;
    color: #fff;
    padding: 60px;
+   border-radius: 30px;
 }
 .ipadpro h1{
     font-weight:bolder ;
+    font-size: 45px;
 }
 .mobile{
     display: flex;
     height: 450px;
+    flex: 50%;
+    width: 100%;
 }
 .mobile .m2{
-   border: 8px solid #fff
-   ;
-   background-color: black;
-   width: 52%;
-   text-align: center;
-   padding: 10px;
-   
+    /* width: 49%; */
+    border: 8px solid #fff;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
     
+}
+.m2 img{
+    height: 90%;
+    width: 100%;
 }
 .m2 h1{
     color: #fff;
@@ -112,13 +125,169 @@ nav ul li a:hover{
 .m1{
     background-color: antiquewhite;
     text-align: center;
-    margin: 10px;
-    padding: 20px;
+    /* margin: 10px; */
+    padding: 10px;
+    border-radius: 30px;
+    /* width: 48%; */
+    border: 8px solid #fff;
+
 }
 .m1 h1 p{
     margin: 10px;
     font-weight:bolder;
 }
+.watch{
+    display: flex;
+    height: 450px;
+    flex: 50%;
+    width: 100%;
+}
+.w1{
+    /* width: 50%; */
+}
+.w2{
+    width: 50%;
+    border: 8px solid #fff;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+.w2 img{
+    width: 90%;
+}
+.w2 h1{
+    color: #fff;
+    font-size: 50px;
+}
+.w2 p{
+    color: #fff;
+}
+.w1{
+    display: flex;
+    width: 50%;
+    border: 8px solid #fff
+    ;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    align-items: center;
+}
+.w1 img{
+    height: 90%;
+}
+.w1 h1{
+    color: #fff;
+    font-size: 40px;
+}
+.w1 p{
+    color: #fff;
+}
+.pod{
+    display: flex;
+    flex: 50%;
+    height: 450px;
 
+}
+.pod .p1{
 
+    width: 50%;
+    border: 8px solid #fff;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+.p1 img{
+    height:90%;
+   
+}
+.p1 h1 {
+    color: #fff;
+}
+.p1 p{
+    color: #fff4f4;
+}
+.p2{
+    width: 50%;
+    border: 8px solid #fff;
+    background-color:#fff4f4;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+.p2 img{
+    height: 80%;
+    width: 80%;
+}
+.lim{
+    display: flex;
+    height: 300px;
+    width: 98%;
 
+}
+.lim .img img{
+    width:98;
+    height:250px;
+    margin:10px
+
+}
+.lim .im2 img{
+    width: 95%;
+    height: 250px;
+    margin: 10px;
+}
+.lim .im3 img{
+    width: 95%;
+    height: 250px;
+    margin: 10px;
+}
+.footer{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(202, 213, 213);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+h2{
+    color: green;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(195, 217, 244);
+}
+.main{
+    border:1px solid black;
+    width: 46%;
+    display: flex;
+    height: 250px;
+    margin-top: 15px;
+   margin-left: 10px;
+   border-radius: 20px;
+}
+.main img{
+    
+    margin: 22px;
+    
+    width: 200px;
+}
+.details table, tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 15px;
+    
+}
+table td{
+    height: 2.5rem;
+    padding: 05px;
+    
+}
+.main1{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    padding: 5px;
+}
