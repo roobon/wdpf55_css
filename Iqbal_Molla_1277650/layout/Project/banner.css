@@ -1,0 +1,94 @@
+.nav-bar {
+     width: 100%;
+     height: 30;
+     background-color: red;
+     padding: 10px;
+     text-align: center;
+}
+.nav-bar a {
+     color: white;
+     text-decoration: none;
+     font-size: 24px;
+}
+.container{
+     background-color:black;
+     display: flex;
+     color:white;
+     font-size: 30px;
+     margin-bottom: 50px;
+}
+h1,p {
+     margin-left: 25px;
+}
+.h2{
+     background-color:white;
+     color: black;
+}
+p {
+     font-size: 30px;
+}
+.btn{
+     background-color:salmon;
+     right: 50px;
+     padding: 5px 5px 5px 5px;
+     margin-left: 40px;
+     margin-bottom: 10px;
+     color: black;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.btn:hover{
+     background-color: rgb(43, 43, 211);
+     color: aliceblue;
+     
+}
+.menu{
+
+     background-color: rgb(5, 5, 5);
+     width: 150px;
+     height: 270px;
+     margin-left: 20PX;
+     margin-right: 20px;
+     padding: 15px 5px 5px 10px;
+     text-align: center;
+     color: aliceblue;
+     border: 2px solid blue;
+     border-radius: 10px;
+}
+.main{
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+.h1:hover{
+     background-color: red;
+     color: aliceblue;
+     border-radius: 10px;
+     transition: 0.3s all;
+}
+.content{
+     padding: 5px 5px;
+     border: 1px solid black;
+     text-align: center;
+     /* width: 300px; */
+     height: 160px;
+     margin-left: 10px;
+     margin-top: 10px;
+}
+.team {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.molla {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+footer {
+     width: 100%;
+     height: 30px;
+     background-color: salmon;
+     text-align: center;
+     padding: 10px;
+     margin-top: 10px;
+}

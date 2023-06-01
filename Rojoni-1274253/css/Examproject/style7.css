@@ -1,0 +1,53 @@
+.menu {
+    /* text-align: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+ 
+   
+    
+}
+.header-container{
+    display: flex;
+}
+    
+.menu a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.header{
+    display: flex;
+    background-color: black;
+   
+}
+.menu2 a{
+    text-decoration: none;
+    padding: 5px;
+ 
+    color: white;
+ 
+}
+a.menu350{
+    font-size: 20px;
+ 
+    
+}
+.menu2b{
+    margin-top: 5px;
+
+
+}
+.menu2{
+    display:flex ;
+    justify-content: space-between;
+    background-color:black;
+}
+.buttom{
+    text-align: right;
+}
+
