@@ -50,12 +50,13 @@ nav ul li a:hover{
 }
 
 .pro{
-    margin-top: 65px;
+     margin-top: 90px;
     background-color: black;
     color: #fff;
     height: 400px;
     /* margin-top:40px; */
     width: 100%;
+    height: 60vh;
 }
 .pro h1{
     text-align: center;
@@ -92,7 +93,7 @@ nav ul li a:hover{
    background-image: url(Image/ipade\ pro.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   height: 400px;
+   height: 500px;
    text-align: justify;
    margin-top: 10px;
    color: #fff;
@@ -298,3 +299,58 @@ table td{
     margin: 10px;
     padding: 5px;
 }
+.mainrow{
+    /* align-items: start; */
+    display: flex;
+    width: 100%;
+    margin: 0 80px;
+    
+}
+.row{
+    width: ;
+    /* display: flex; */
+   
+    /* gap: 5px; */
+    
+}
+.colum1, .colum2, .colum3{
+    
+    
+    margin: 10px;
+
+    /* border: 1px solid black; */
+    border-radius: 15PX;
+     /* margin: 5px; */
+     text-align: center;
+    }
+    .colum1{
+       background: linear-gradient(white, rgb(98, 51, 240));
+        color: #fff4f4;
+        height: 500px;
+        padding: 10px;
+        font-size: 20px;
+        
+    }
+     .colum1 img{
+        height: 300px;
+     }
+     .colum2{
+        height: 300px;
+        background: linear-gradient(rgb(238, 196, 203),black);
+        color: #fff4f4;
+        font-size: 16px;
+        padding: 5px;
+        
+     }
+     .colum2 img{
+        height:150px ;
+     }
+     .colum3{
+        height: 400px;
+        background: linear-gradient(white,rgb(95, 21, 21));
+        font-size: 15px;
+        padding: 5px;
+     }
+     .colum3 img{
+        height: 200px;
+     }
