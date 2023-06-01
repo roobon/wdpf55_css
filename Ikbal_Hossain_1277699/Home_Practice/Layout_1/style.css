@@ -7,11 +7,6 @@ header {
     display: flex;
 }
 
-.content {
-    margin-left: 20px;
-    line-height: 10px;
-}
-
 footer{
     width: 950px;
     height: 40px;
@@ -19,6 +14,55 @@ footer{
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
 }
 
+.container nav {
+    display: flex;
+    flex: 30%;
+    /* float: left; */
+    flex-direction: column;
+    padding: 20px;
+    line-height: 10px;
+    margin-left: 200px;
 
+}
+nav a {
+    background-color: aquamarine;
+    border-bottom: 2px solid orangered;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+nav a:hover {
+    color: beige;
+    background-color: chocolate;
+    border: 2px ridge antiquewhite;
+}
+.container main {
+    /* display: flex; */
+    flex: 70%;
+    /* float: left; */
+    flex-direction: column;
+    margin-right: 220px;
+    margin-top: 20px;
+    border: 1.5px gray dotted;
+    height: 380px;
+}
+div.content {
+    text-align: justify;
+    padding: 20px;
+    /* justify-content: center; */
+}
+h2 {
+    text-align: center;
+    background-color: aquamarine;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+
+}
