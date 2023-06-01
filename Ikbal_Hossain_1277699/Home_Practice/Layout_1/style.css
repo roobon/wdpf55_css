@@ -1,0 +1,13 @@
+header {
+    width: 950px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.content {
+    margin-left: 20px;
+    line-height: 10px;
+}
