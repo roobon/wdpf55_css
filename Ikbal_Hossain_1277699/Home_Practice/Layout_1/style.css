@@ -11,3 +11,14 @@ header {
     margin-left: 20px;
     line-height: 10px;
 }
+
+footer{
+    width: 950px;
+    height: 40px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
