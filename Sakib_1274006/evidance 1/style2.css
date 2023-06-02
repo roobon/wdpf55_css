@@ -1,0 +1,94 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.container{
+    width: 100%;
+}
+header{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(88, 128, 214);
+}
+img{
+    height: 150px;
+    width: 210px;
+    padding: 20px;
+}
+.menu{
+    clear: both;
+    height: 50px;
+    width: 83%;
+    text-decoration: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New';
+}
+.menu ul li a:hover{
+    color: white;
+    background-color:rgb(88, 128, 214);
+}
+.middle{
+    clear: both;
+    height: 300px;
+    width: 80%;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+}
+.sidebar ul li{
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(212, 206, 206);
+}
+.sidebar ul li:hover{
+    background-color: rgb(88, 128, 214);
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New';
+}
+label{
+    margin: 100px;
+    width: 300px;
+}
+input{
+    margin-left: 40px;
+}
+.content{
+    width: 60%;
+    float: right;
+}
+.content h2{
+    border: solid rgb(218, 218, 218);
+    padding: 10px;
+
+}
+.content p{
+    text-align: justify;
+    padding: 10px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(88, 128, 214);
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}

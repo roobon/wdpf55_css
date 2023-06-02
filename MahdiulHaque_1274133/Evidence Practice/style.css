@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container {
+    width: 90%;
+    background-color: white;
+}  
+
+header{
+    width: 850px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid black;
+}
+header img{
+    width: 100px;
+    padding: 30px;
+}
+footer{
+    clear: both;
+    width: 90%;
+    height: 70px;
+    background-color: royalblue;
+    text-align: center;
+}
+.menu {
+    width: 20%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+
+header h1{
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.menu >.search-box{
+    clear: both;
+      padding: 0 auto;
+      float: right;
+      
+}
+div.content {
+    padding: 0 auto;
+    
+    margin-right: 80px;
+    margin-left: 60px;
+
+}
+
+
