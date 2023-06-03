@@ -46,6 +46,7 @@ p {
 .col-2 img {
     max-width: 100%;
     padding: 50px 0;
+    margin-bottom:
 }
 .col-2 h1 {
     font-size: 50px;
@@ -67,7 +68,8 @@ p {
     background: radial-gradient(#fff,#ffd6d6);
 }
 .header .row {
-    margin-top: 70px;
+    margin-top: 80px;  
+    /* need to be changed */
 }
 .categories {
     
