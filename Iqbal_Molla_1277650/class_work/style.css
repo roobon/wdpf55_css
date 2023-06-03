@@ -1,29 +1,64 @@
-header{
-    background-color: rgb(93, 93, 223);
-    height: 120px;
-    padding: 10px 10px 10px 30px;
-    color: aliceblue;
+header {
+     width: 80%;
+     height: 150px;
+     background-color: aqua;
+     display: flex;
 }
-.nav-menu{
-    float: left;
-    background-color: rgb(134, 134, 246);
-    height: 20px;
-    padding: 5px 5px 5px 20px; 
-    width: 98%;
+img {
+     width: 100px;
+     height: 100px;
+     padding: 25px;
 }
-.nav-menu a:hover {
-    background-color:white;
-    color: black;
+h2 {
+     padding: 25px;
 }
-.menubar{
-    float: laft;
-    border: 1px solid black;
-    width: 150px;
-    height: 250px;
-    padding: 5px 0px 5px 5px;
+.menu {
+     width: 130px;
+     height: 250px;
+     border: 1px solid black;
+     padding: 25px 5px 5px 35px;
+     background-color: aqua;
+     margin-top: 20px;
+     border-radius: 10px;
+     
 }
-.menu{
-    float: left;
-    width: 500px;
-    height: 300px;
+.manu, a {
+     text-decoration: none;
+     color: black;
+     font-size: 24px;
+}
+ a:hover {
+     background-color: salmon;
+     color: blue;
+}
+.main {
+     width: 600px;
+     height: 400px;
+     border: 1px solid black;
+     padding: 5px 20px 5px 20px;
+     margin-left: 20px;
+     margin-top: 20px;
+     text-align: justify;
+     border-radius: 10px;
+   
+}
+h3 {
+     width:580px;
+     height: 20px;
+     text-align: center;
+     background-color: aqua;
+     padding: 10px ;
+}
+.content {
+     display: flex;
+     margin-left: 20px;
+}
+footer {
+     width: 80%;
+     height: 20px;
+     border: 1px solid black;
+     padding: 10px;
+     background-color: salmon;
+     text-align: center;
+     margin-top: 20px;
 }

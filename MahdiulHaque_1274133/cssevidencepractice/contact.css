@@ -1,0 +1,16 @@
+h4{
+    text-align: justify;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+}
+p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+iframe{
+    border-radius: 10px;
+    width: 350px;
+    height: 170px;
+}
