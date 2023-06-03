@@ -27,11 +27,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 100%; */
 }
 
 ul li {
-    /* list-style: none; */
-    margin-left: 150px;
+    list-style: none;
+    margin-left: 50px;
     margin-top: 40px;
     font-size: 14px;
 }
