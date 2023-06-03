@@ -61,7 +61,7 @@ ul {
      }
 
      ul li a:hover{
-        color: green;
+        color: rgb(65, 68, 65);
      }
 
      .search {
