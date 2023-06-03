@@ -185,7 +185,7 @@ ul {
     height: 60px;
     border: 1px solid black;
     padding: 10px;
-    background-color: chartreuse;
+    background-color: grey;
 }
 .row1 {
     display: flex;
@@ -214,6 +214,27 @@ ul {
     border: 1px solid black;
     height: 100px;
     width: 94%;
-    padding: 55px;
+    padding: 60px;
     background-color: rgb(17, 129, 88);
 }
+
+.conten{ font-weight: bold;
+   border: 0px solid black;
+   height: 100px;
+   width: 94%;
+   padding: 60px;
+   background-color: none;
+   color: rgb(228, 233, 223);
+   font-size: 20px;
+   
+}
+
+.footer {
+   text-align: center;
+   width: 100%;
+   height: 50px;
+   border: 1px solid black;
+   background-color: gray;
+   padding: 10px;
+}
+   
