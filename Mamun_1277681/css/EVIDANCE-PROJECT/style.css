@@ -1,0 +1,97 @@
+.header-container{
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+.header-logo img{
+    width: 100px;
+    margin-left: 20px;
+}
+.header-content{
+    margin-left: 20px;
+}
+.header-content p{
+    margin-top: -20px;
+}
+
+/* header style end */
+.top-menu{
+    list-style: none;
+    display: flex;
+}
+.menu-home{
+    padding: 10px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 5px;
+}
+.menu-home:hover{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 119, 255);
+    border-radius: 5px;
+    border: 1px solid  rgb(0, 119, 255) ;
+}
+.menu{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* left section styles started */
+.left-section{
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  rgb(0, 119, 255);
+}
+.left-section a{
+    text-decoration: none;
+}
+.left-section-menu{
+   border-bottom: 1px solid  rgb(0, 119, 255) ;
+   padding: 5px;
+}
+.src-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+.src{
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 5px;
+}
+/* right section styles */
+.right-section{
+    width: 65%;
+    margin-left:  20px;
+    padding: 10px;
+    border: 2px solid  rgb(0, 119, 255) ;
+}
+.right-section p{
+    padding: 10px;
+}
+.section-title{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid  rgb(0, 119, 255) ;
+    background-color: rgb(193, 212, 255);
+}
+.section-container{
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color:  rgb(0, 119, 255)  ;
+    color: white;
+}
