@@ -390,23 +390,3 @@ form .btn:focus {
 form a {
     text-decoration: none;
 }
-/* #login-form {
-    left: -300px;
-}
-
-#reg-form {
-    left: 0;
-}
-
-form a {
-    font-size: 12px;
-}
-
-#indicator {
-    width: 100px;
-    border: none;
-    background: #ff523b;
-    height: 3px;
-    margin-top: 8px;
-    transform: translateX(100px);
-} */
