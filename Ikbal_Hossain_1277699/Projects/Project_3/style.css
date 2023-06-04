@@ -28,6 +28,14 @@ nav ul li {
 a {
     text-decoration: none;
     color: #555;
+    font-size: larger;
+    margin: 20px;
+    font-weight: 800;
+}
+
+a:hover {
+    background: #ff523b;
+    color: #fff;
 }
 
 p {
