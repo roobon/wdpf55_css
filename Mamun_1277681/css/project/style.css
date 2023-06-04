@@ -30,6 +30,12 @@ body{
     color: white;
     margin-right: 20px;
 }
+.menu a:hover{
+color: #0a0034;
+/* background-color: #d1cbff; */
+border-radius: 5px;
+padding: 5px;
+}
 .header-logo img{
     width: 10%;
     padding-left: 250px;
@@ -118,10 +124,15 @@ hr{
   courses styles start
   ------------------- */
 
+  .container{
+    margin-bottom: 80px;
+  }
+
   .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+ 
   }
   .course{
     width: 225px;
@@ -167,8 +178,78 @@ hr{
   }
   footer{
     background-color: #562eff;
-    padding: 30px;
+    padding: 50px;
     margin-top: 20px;
     text-align: center;
     color: white;
   }
+
+
+  /* about page styles */
+  .about-header-logo img{
+    width: 10%;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-header-container{
+    background-color: #0f0830;
+  }
+  .about-header-content{
+    color: white;
+    margin: 0 auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .about-header-content h1{
+    font-size: 40px;
+  }
+  .about-profiles-images img{
+    height: 450px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .about-profiles-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+  }
+
+  /* contact us styles */
+  main{
+    background-color: #562eff;
+    margin: 0;
+  }
+ .contact-container{
+    display: flex;
+    width: 870px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #bbacff;
+    padding-top: 50px;
+    
+    
+ }
+  .contact-left-section img{
+    width: 80%;
+  }
+  .contact-form{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .btn-submit{
+    background-color: #ffffff;
+    color: #562eff;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  .btn-submit:hover{
+    background-color: #562eff;
+    color: white;
+  }
+  
+  

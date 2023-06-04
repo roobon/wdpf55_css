@@ -1,5 +1,10 @@
+#full{
+   display: flex;
+   justify-content: center;
+
+}
 header {
-    width: 80%;
+    width: 850px;
     height: 150px;
     background-color: aqua;
 }
@@ -8,7 +13,7 @@ header img {
     height: 100px;
     position: absolute;
     top: 30px;
-    left: 50px;
+    left: 260px;
 }
 .menu {
     border: 1px solid black;
@@ -43,8 +48,10 @@ h2 {
 }
 footer {
     border: 1px solid black;
-    width: 80%;
+    width: 850px;
+    height: 20px;
     background-color: salmon;
     margin-top: 10px;
     text-align: center;
+    padding: 20px;
 }
