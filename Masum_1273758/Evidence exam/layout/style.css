@@ -1,0 +1,49 @@
+.banner{
+    background-color: darkslategray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+footer{
+    background-color: darkslateblue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top:60px
+    
+}
+.middle-menu{
+    border: 2px solid black;
+margin-bottom: 10px;
+padding: 20px;
+font-weight: bolder;}
+    
+.down-menu{
+    border: 1px solid black;
+    width: 250px;
+    padding: 20px;
+    
+}
+.down-menu h5{background-color: darkslategray;
+
+
+}
+.beside h3{ border: 2px solid black;
+    text-align: center;
+    
+    
+}
+.beside form {
+    border: 2px solid black;
+    text-align: center;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+}
+.div-main{
+    display: flex;
+    justify-content: end;
+}

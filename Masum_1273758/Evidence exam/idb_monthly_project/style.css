@@ -2,10 +2,16 @@
 .head a{margin-right:20px;
     text-decoration: none;
     color: black;
+   
 }
 .head{
     display: flex;
     justify-content: space-between;
+  
+}
+.head a:hover{
+    background-color:rgb(207, 16, 16);
+    padding: 20px;
 }
 /* middle item */
 .middle{
@@ -43,6 +49,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10%;
+    margin-top: 110px;
  
    
 }
@@ -139,7 +146,7 @@ color: #fff;
         padding: 5px;
         border-radius: 15px;
     }
-    /* Sing up Email fomr */
+    /* Sing up Email form */
      .sing-up{
         background: url("images/form1.jpeg");
        
@@ -150,6 +157,7 @@ color: #fff;
      height: 100vh;
      display: flex;
      justify-content: end;
+    
      
 
     }
@@ -165,9 +173,48 @@ color: #fff;
         width: 40%;
         text-align: center;
         color: black;
+        justify-content: center;
+        align-items: center;
+      
+
 
     }
+    /* login-form */
+    .log-in{
+        background-color:darkslateblue;
+        
+        
+       
+        border: 2px  solid black;
+        padding: 15% 20%;
+        color: #fff;
+        border-radius: 30px;
 
+      
+    
+       
+        display: inline-block;
+      
+       }
+      
+
+        
+        
+    
+    .log-in input:hover{
+        background-color: darkslategray;
+    }
+    .sing-up label{
+        width: 140px; 
+        display: inline-block;
+        margin: 0.2px;
+        font-weight: bold;
+        font-size: 16px;
+        color:white;
+    }
+
+
+   
     
     
 
