@@ -61,7 +61,7 @@ ul {
      }
 
      ul li a:hover{
-        color: green;
+        color: rgb(65, 68, 65);
      }
 
      .search {
@@ -238,7 +238,7 @@ ul {
       }
 
       .btnn:hover{
-         background: rgb(22, 21, 21);
+         background: rgb(57, 216, 17);
          color: coral;
       }
 

@@ -11,10 +11,16 @@ header{
     align-items: center;
 }
 header .logo{
-    height: 6vh;
+    height: auto;
     margin-left: 25px;
     display: flex;
     align-items: center;
+}
+.search{
+    font-size: 18px;
+    /* height: auto; */
+    width: 150px;
+    margin-left: 200px;
 }
 nav{
     height: 6vh;
@@ -27,6 +33,9 @@ nav a{
     margin: 0 20px;
     font-size: 20px;
     text-decoration: none;
+}
+nav a:hover{
+    color: rgb(218, 39, 8);
 }
  .banner{
     background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%) ,url("Image/image\ 11.jpg");
@@ -183,6 +192,88 @@ footer{
     color: #fff;
     padding: 1rem;
 }
+.search{
+    height: 25px;
+    width: 70px;
+    border-color: green;
+}
+.search2{
+    height: 25px;
+    width: 150px;
+    margin-left: 20px;
+    border: 3px auto;
+    border-color: green;
+}
+
+/* About Start */
+.banner1{
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%) ,url("Image/17.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.middle_text{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.middle_text h1{
+    height: fit-content;
+    overflow-y: hidden;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* background-color: #000; */
+}
+.box>div{
+    width: 95%;
+    margin-top:30px;
+    height: 550px;
+    padding: 16px;
+}
+.box>div h1{
+    height:120px;
+}
+
+.box>div img{
+    height: 300px;
+    width: 700px;
+}
+
+/* History */
+.banner2{
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%) ,url("Image/old\ 1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+
 
 
 

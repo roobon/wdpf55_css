@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <style>
+        body {
+            background-image: url('/assets/subscribe-bg.jpg');
+            
+        }
+
+        .full-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 80px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        .container {
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* flex-wrap: wrap; */
+            /* justify-content: space-evenly; */
+            gap: 60px;
+        }
+
+        .right-col {
+            display: grid;
+            gap: 40px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+
+        img {
+            width: 200px;
+            height: 150px;
+            box-shadow: 10px 10px 15px 2px gray;
+        }
+
+
+        .left-col h1 {
+            font-size: 60px;
+        }
+
+    
+            .left-col button:hover {
+                background-image: linear-gradient(to right, rgb(252, 74, 74), rgb(255, 136, 0));
+                box-shadow: rgba(248, 139, 96, 0.233) 0px 88px 35px,
+                 rgba(255, 115, 22, 0.26) 0px 49px 30px,
+                rgba(255, 85, 33, 0.14) 0px 22px 22px, 
+                rgba(255, 107, 22, 0) 0px 5px 12px,
+                 rgba(255, 95, 31, 0.267) 0px 0px 0px;
+            }
+
+        button {
+            font-size: 30px;
+            font-weight: 600;
+            background-color: rgba(255, 228, 196, 0);
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+
+
+        button p {
+            margin: 20px;
+        }
+
+
+        /* ========= menu bar ========= */
+
+        #blog {
+            background-color: rgb(253, 89, 89);
+        }
+
+        .menu-div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-bar {
+            background-color: rgba(3, 8, 32, 0.205);
+            padding: 10px;
+            width: 90%;
+            height: 30%;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            border-radius: 10px;
+
+        }
+
+        .menu-bar button {
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .menu-bar button:hover {
+            background-color: rgb(250, 156, 156);
+            box-shadow: rgba(248, 139, 96, 0.137) 0px 10px 35px,
+                 rgba(255, 115, 22, 0.418) 0px 20px 30px,
+                rgba(255, 85, 33, 0.14) 0px 22px 22px, 
+                rgba(255, 107, 22, 0) 0px 5px 12px,
+                 rgba(255, 95, 31, 0.267) 0px 0px 0px;
+           
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+        /* ================ media query ==================== */
+
+
+        /* small device  */
+        @media screen and (max-width:576px) {
+
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .right-col {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+
+        }
+
+        /* Medium device  */
+
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .right-col {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+
+
+
+
+        /* ===================================================*/
+    </style>
+</head>
+
+<body>
+    <div class="menu-div">
+        <div class="menu-bar">
+            <button><a href="index.html">Blog</a></button>
+            <button> <a href="upcomming.html">Upcoming Match</a> </button>
+            <button id="blog"> <a href="registration.html">Subscribe</a> </button>
+        </div>
+    </div>
+    <div class="full-container">
+        <div class="container">
+            <div class="left-col">
+                <h1>
+                    Sports Club
+                </h1>
+                <h3>Become a premum member of our sports club and <br> Watch Premium Content easy and regularly without
+                    any adds. </h3>
+
+                <button>
+                    <p> <a target="_blank" href="https://www.linkedin.com/in/khayrul-alam-8a69981a2/">SUBSCRIBE</a> </p>
+                </button>
+            </div>
+            <div class="right-col">
+                <img src="https://e2.365dm.com/13/05/800x600/168311249_2941386.jpg?20130813223857" alt="">
+                <img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25783135.ece/ALTERNATES/s615/0_GettyImages-1450080117.jpg"
+                    alt="">
+                <img src="https://resources.premierleague.com/photos/2023/04/12/153a40d3-7d73-4f6b-a59a-538ae4067ccf/GettyImages-1478715947.jpg?width=930&height=620"
+                    alt="">
+                <img src="https://e1.365dm.com/17/08/800x600/skysports-premier-league-football-mohamed-salah-liverpool_4071859.jpg?20170812142748"
+                    alt="">
+                <img src="https://media.zenfs.com/en/planet_sport_833/c685519cf2cbc8e69a9db998a460f881" alt="">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/6348003ff184df601ccba7a3/0x0.jpg?format=jpg&width=1200"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
