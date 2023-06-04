@@ -232,7 +232,7 @@ footer{
 }
 .middle_text h1{
     height: fit-content;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .box{
     display: grid;
