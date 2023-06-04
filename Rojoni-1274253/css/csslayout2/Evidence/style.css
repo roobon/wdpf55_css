@@ -1,0 +1,78 @@
+.header{
+    height: 150px;
+    background-color: hsl(234, 100%, 50%);
+    border: 1px solid rgb(0, 153, 255);
+    color: white;
+    padding: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu{
+    padding: 20px;
+margin-bottom: 20px;
+
+
+}
+.menu1{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+
+}
+.menu2{
+    padding: 20px;
+    text-decoration: none;
+}
+.menu3{
+    text-decoration: none;
+}
+
+.container{
+  border: 2px solid black;
+    padding: 10px;
+    margin-left: 90px;
+    width: 40%;
+   
+  
+   
+  
+}
+.form{
+    height:50px ;
+ 
+    border-bottom: 2px solid black;
+}
+.form1{
+    height: 50px;
+    background-color: blue;
+    
+}
+.form2{
+    height: 30px;
+    background-color:white;
+ 
+}
+.about{
+    border: 2px solid black;
+    padding: 50px;
+    margin-left: 70px;
+    width: 50%;
+
+}
+.maincontainer{
+    display: flex;
+}
+.p{
+    font-size: 30px;
+}
+footer{
+   background-color: rgb(25, 0, 255); padding: 30px; text-align: center; font-size: 20px; color: white;
+}
+.search{
+   padding: 20px;
+   border: ;
+}
+

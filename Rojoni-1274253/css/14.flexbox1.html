@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box 1</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: aquamarine;
+            margin: 2px;
+       
+      
+        
+  
+        }
+        .container1{
+            display: flex;
+            background-color: blanchedalmond;
+            margin: 2px;
+            padding: 20px;
+        }
+        .container> .header{
+            width: 100%;
+            height: 50px;
+            padding: 30px;
+      
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Company Name</h1>
+
+
+        </div>
+    </div>
+    <div class="container1">
+        <div  style="flex-grow: 3;" class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis commodi natus minus architecto quasi illo aliquam? Excepturi maxime, eos illum quae beatae commodi! Architecto cumque odio ab sit, optio ducimus.</div>
+        <div style="flex-grow: 3;" class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas reiciendis aut accusamus deleniti necessitatibus labore, libero optio ab iure voluptates. Vel impedit minima voluptatem? Impedit tempora corporis qui suscipit itaque.</div>
+        <div style="flex-grow: 3;" class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, corrupti. Impedit, veniam. Atque eligendi ab animi mollitia quae harum, aliquid nesciunt magni doloremque voluptatibus necessitatibus adipisci dolorem. Ducimus, a itaque.</div>
+        <div style="flex-grow: 3;" class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit accusamus, ratione sapiente quo molestias mollitia sit non saepe? Facilis impedit voluptatibus ut libero! Tempore, rerum? Assumenda magnam ipsam neque?</div>
+       
+
+    </div>
+    </div>
+    <div class="container">
+        <div  style="flex-grow: 3;" class="box1">Box1</div>
+        <div style="flex-grow: 6;" class="box1">Box2</div>
+        <div style="flex-grow: 3;" class="box1">Box3</div>
+       
+
+    </div>
+    
+</body>
+</html>
