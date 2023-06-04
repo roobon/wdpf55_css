@@ -1,0 +1,41 @@
+.banner{
+    background-color: darkslategray;
+    padding: 10px;
+    margin-bottom:10px ;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+}
+.footer{
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.middle-menu{
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 2px solid black;
+
+}
+.middle-menu a{
+    text-decoration: none;
+}
+.div-main{
+    display: flex;
+    justify-content: end;
+}
+.down-menu{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+.middle-menu a:hover{background-color: rgb(22, 8, 109);
+    padding: 20px;
+    color: aliceblue;
+    
+
+}
