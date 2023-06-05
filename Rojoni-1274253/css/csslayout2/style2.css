@@ -1,0 +1,90 @@
+.header{
+    background-color: hsl(207, 100%, 50%);
+color: white;
+padding: 15px;
+height: 100px;
+}
+.nav-menu{
+    padding: 20px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px;
+    text-decoration: none;
+   
+   
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.home{
+    padding: 20px;
+    background-color: hsl(207, 100%, 50%);
+    color: white;
+    
+}
+.about{
+    padding: 20px;
+}
+.contact{
+    padding: 20px;
+}
+.row{
+    padding: 50px;
+    border: 1px solid black;
+}
+.columnA{
+    border: 2px solid lightsalmon ;
+ 
+}
+.table, tr ,td{
+    border: 2px solid black;
+   
+    width: 40px; 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+} 
+.form-container{
+    border: 1px solid black;
+   
+  
+}
+.form{
+    border-bottom: 1px solid brown;
+    
+    width:200px ;
+}
+.form1{
+    background-color: blue;
+    border-bottom: 1px solid brown;
+   width: 200px;
+    height: 40px;
+}
+.form2{
+    height: 20px;
+    width: 200px;
+}
+.about1{
+    background-color: blanchedalmond;
+    border: 1px solid burlywood;
+}
+.right-form{
+    border: 1px solid black;
+  margin-left: 30px;
+  padding: 5px;
+
+}
+.form-wrapper{
+    display: flex;
+    margin-left: 25px;
+
+}
+.search{
+    background-color: blue;
+}
+.copyright{
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+   margin-top: 5px;
+    padding: 10px;
+}
