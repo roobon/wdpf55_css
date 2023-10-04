@@ -7,3 +7,22 @@ h1 {
 .orange_color {
   color: orange;
 }
+section {
+  display: flex;
+}
+.half_width {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.half_width img {
+  width: 60%;
+}
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: wheat;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
