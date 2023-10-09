@@ -1,0 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.para1 {
+  text-align: justify;
+}
+
+.orange_color {
+  color: orange;
+}
+
+.flexible_container {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.top_banner {
+  background-image: url(images/bannar/original.jpg);
+  background-repeat: no-repeat;
+}
+
+.half_width {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.half_width img {
+  width: 80%;
+}
+
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: wheat;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.dream_big{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
