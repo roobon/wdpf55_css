@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        /* color: royalblue; */
+      }
+      h1:hover {
+        background-color: antiquewhite;
+        color: royalblue;
+        border: 5px solid tomato;
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 10px;
+        outline-color: black;
+        padding: 20px;
+        margin: 50px;
+        font-weight: bolder;
+      }
+
+      .input:focus {
+        color: blue;
+        font-weight: 900;
+      }
+      a:visited {
+        color: tomato;
+      }
+      li:first-child {
+        color: red;
+        font-weight: bolder;
+      }
+      li:last-child {
+        color: blue;
+        font-weight: bolder;
+      }
+      li:nth-child(2n) {
+        background-color: aqua;
+      }
+      li:nth-child(2n + 1) {
+        background-color: tomato;
+      }
+
+      h3::before {
+        content: "Hi! ";
+        color: royalblue;
+      }
+      h3::after{
+        content: ", Bye";
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>EWU</h1>
+    <input class="input" type="text" /> <br />
+    <br />
+    <a href="https://www.ewubd.edu/">EWU</a> <br />
+    <br />
+    <a href="https://www.underconsideration.com/brandnew/"> Never visited </a>
+    <br /><br />
+
+    <!-- h3*6{middle size header $} -->
+    <h3>middle size header 1</h3>
+    <h3>middle size header 2</h3>
+    <h3>middle size header 3</h3>
+    <h3>middle size header 4</h3>
+    <h3>middle size header 5</h3>
+    <h3>middle size header 6</h3>
+
+    <ul>
+      <li>Sadid</li>
+      <li>Shuvo</li>
+      <li>Mamun</li>
+      <li>Ikbal</li>
+      <li>Mizan</li>
+      <li>Masum</li>
+      <li>Alauddin</li>
+      <li>Masum</li>
+      <li>Imran</li>
+      <li>Sakib</li>
+      <li>Rayhan</li>
+      <li>Mahadi</li>
+    </ul>
+  </body>
+</html>
