@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 50%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <form action="">
+        <p>Nane: <input type="text" placeholder="Enter your name" /></p>
+
+        <p>Email: <input type="text" placeholder="Enter your email" /></p>
+
+        <p>Phone: <input type="text" placeholder="Enter your phone" /></p>
+
+        <fieldset>
+          <legend>Which document do you prepare</legend>
+
+          <p><input type="radio" name="nid" id="" />NID</p>
+
+          <p>
+            <label for="pass">
+              <input type="radio" name="passport" id="pass" /> Passport
+            </label>
+          </p>
+
+          <label for="birth">
+            <input type="radio" name="birth-certificate" id="birth" /> Birth
+            Certificate
+          </label>
+
+          <p>
+            <label for="tin">
+              <input type="radio" name="tin-certificate" id="tin" />Tin
+              Certificate
+            </label>
+          </p>
+        </fieldset>
+      </form>
+
+      <h2>Another Form</h2>
+      <form action="">
+        <p>Nane: <input type="text" placeholder="Enter your name" /></p>
+
+        <p>Email: <input type="text" placeholder="Enter your email" /></p>
+
+        <p>Phone: <input type="text" placeholder="Enter your phone" /></p>
+
+        <fieldset>
+          <legend>Select your courses</legend>
+          <!-- p*3>label>input:checkbox -->
+          <p>
+            <label for="php">
+              <input type="checkbox" name="course" id="php" />PHP
+            </label>
+          </p>
+
+          <p>
+            <label for="database">
+              <input type="checkbox" name="course" id="database" /> Database
+            </label>
+          </p>
+
+          <p>
+            <label for="java">
+              <input type="checkbox" name="course" id="java" /> Java
+            </label>
+          </p>
+        </fieldset>
+
+        <p>
+            Special instruction: <br>
+            <textarea name="instruction" id="" cols="30" rows="10" style="text-align: left">
+            Please provide relevant information while selecting your courses
+            </textarea>
+        </p>
+
+        <button type="submit"> Submit </button>
+        <button type="reset"> Reset </button>
+      </form>
+    </div>
+  </body>
+</html>
